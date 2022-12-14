@@ -1,0 +1,917 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+/*magenta_estructúra*/
+
+.magenta{
+    font-family: Montserrat-Regular;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px 2600px 110px;
+    grid-template-areas: "nav nav nav nav"
+                         "main main main main"
+                         "pie pie pie pie"; 
+             
+                        
+}
+/*navegador*/
+.header_magenta{
+    background-color: rgb(183, 160, 160);
+    grid-area: nav;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
+.navegador > ul{
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+    font-family: Montserrat-Regular;
+    font-size: 20px;   
+    list-style: none; 
+
+}
+.navegador > ul :hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.navegador > ul > li{
+    margin: 10px;
+
+}
+.navegador > ul > li > a{
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);   
+}
+.navegador > .fa-bars{
+    display: none;
+}
+@media(max-width:650px){
+    .navegador > .fa-bars{
+        display: block;
+        color: rgb(215, 222, 227);
+        font-size: 30px;
+        padding: 20px;
+        margin: 10px;
+    }
+    .navegador .fa-bars:hover + ul{
+        left: 0%;
+        transition: 0.5s;
+    }
+    .navegador > ul{
+        position: fixed;
+        flex-direction: column;
+        background-color: rgb(183, 160, 160);
+        width: 250px;
+        height: 100vh;
+        justify-content: start;
+        align-items: center;
+        left: -300px;
+    }
+    .navegador ul:hover{
+        left: 0;
+    }
+}
+.main_magenta{
+    z-index: 0;
+    grid-area: main;
+    background-color: rgb(241, 230, 240);
+}
+.magenta_video{
+    width: 100%;
+}
+.magenta_caja2{
+    width: 100%;
+    background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+    margin: 20px auto;
+}
+.magenta_titulo{
+    text-align: center;
+    padding: 10px;
+}
+.magenta_bloque1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+.magenta_caja3{
+    width: 500px;
+    background-color: rgb(234, 217, 231);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.magenta_caja4{
+    width: 750px;
+}
+.magenta_img1{
+    width: 750px;
+    border-radius: 20px;
+}
+.magenta_bloque2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+.magenta_caja5{
+    width: 750px;
+}
+.magenta_img2{
+    width: 750px;
+    border-radius: 20px;
+}
+.magenta_caja6{
+    background-color: rgb(234, 217, 231);
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.magenta_bloque3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+.magenta_caja7{
+    background-color: rgb(234, 217, 231);
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.magenta_caja8{
+    width: 750px;
+}
+.magenta_img3{
+    width: 750px;
+    border-radius: 20px;
+}
+.footer_magenta{
+    background-color: rgb(183, 160, 160);
+    grid-area: pie;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: "logo desc icon";
+}
+.footer_desc{
+    width: auto;
+    text-align: center;
+    background-color: rgb(234, 217, 231);
+    border-radius: 10px;
+    margin: 10px auto;
+    grid-area: desc;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.footer_iconos{
+    text-align: end;
+    font-size: 40px;
+    margin: 20px;
+    padding: 10px;
+    grid-area: icon;
+}
+.footer_iconos > a{
+    text-decoration: none;
+    color: black;
+}
+@media(max-width:1300px){
+    .magenta{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px 3100px 110px;
+        grid-template-areas: "nav nav nav nav"
+                             "main main main main"
+                             "pie pie pie pie"; 
+    }
+}
+@media(max-width:900px){
+    .magenta{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px 2400px 110px;
+        grid-template-areas: "nav nav nav nav"
+                             "main main main main"
+                             "pie pie pie pie"; 
+    }
+    .magenta_caja4{
+        width: auto;
+        margin: auto;
+    }
+    .magenta_img1{
+        width: 500px;
+    }
+    .magenta_caja5{
+        width: auto;
+        margin: auto;
+    }
+    .magenta_img2{
+        width: 500px;
+    }
+    .magenta_caja8{
+        width: auto;
+        margin: auto;
+    }
+    .magenta_img3{
+        width: 500px;
+    }
+}
+@media(max-width:650px){
+    .magenta{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px 2000px 150px;
+        grid-template-areas: "nav nav nav nav"
+                             "main main main main"
+                             "pie pie pie pie"; 
+                                              
+        }
+    .magenta_caja4{
+        width: auto;
+        margin: auto;
+    }
+    .magenta_img1{
+        width: 310px;
+    }
+    .megenta_caja5{
+        width: auto;
+        margin: auto;
+    }
+    .magenta_img2{
+        width: 310px;
+    }
+    .magenta_caja8{
+        width: auto;
+        margin: auto;
+    }
+    .magenta_img3{
+        width: 310px;
+    }
+}
+@media(max-width:350px){
+    .magenta{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px 2200px 150px;
+        grid-template-areas: "nav nav nav nav"
+                             "main main main main"
+                             "pie pie pie pie"; 
+                                              
+        }
+    .magenta_caja4{
+        width: auto;
+        margin: auto;
+    }
+    .magenta_img1{
+        width: 250px;
+    }
+    .megenta_caja5{
+        width: auto;
+        margin: auto;
+    }
+    .magenta_img2{
+        width: 250px;
+    }
+    .magenta_caja8{
+        width: auto;
+        margin: auto;
+    }
+    .magenta_img3{
+        width: 250px;
+    }
+}
+
+/*joyería_estructúra*/
+
+.joyeria{
+    font-family: Montserrat-Regular;
+    background-color: rgb(241, 230, 240);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px 1300px 1100px 110px;
+    grid-template-areas: "nav nav nav nav"
+                         "main main main main"
+                         "aside aside aside aside"
+                         "pie pie pie pie";
+}
+.header_joyeria{
+    grid-area: nav;
+    background-color: rgb(183, 160, 160);
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    
+}
+.main_joyeria{
+    z-index: 0;
+    grid-area: main;
+}
+.joyeria_video{
+    width: 100%;
+}
+.joyeria_caja2{
+    background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 10px;
+}
+.joyeria_bloque1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.joyeria_caja3{
+    background-color: rgb(234, 217, 231);
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.joyeria_caja4{
+    background-color: rgb(234, 217, 231);
+    width: 500px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.joyeria_caja5{
+    width: 500px;
+}
+.joyeria_img{
+    width: 100%;
+    border-radius: 20px;
+}
+.aside_joyeria{
+    grid-area: aside;
+}
+.joyeria_caja6{
+    background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+.joyeria_bloque2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.tarjetas{
+    margin: 20px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom,rgb(0, 102, 255),rgb(34, 34, 59));
+    width: 250px;
+    border-radius: 10px;
+    border: solid whitesmoke;
+    display: flex;
+    flex-flow: column; 
+}
+.tarjeta_titulo{
+    text-align: center;
+    margin: 5px;
+    color: rgb(220, 213, 227);
+}
+.tarjeta_img{
+    width: 100%;
+    border-radius: 5px;
+}
+.tarjeta_desc{
+    color: rgb(220, 213, 227);
+    margin: 5px;
+    padding: 5px;
+}
+.btn{
+    background-color: rgb(220, 213, 227);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0); 
+    font-size: 20px;  
+    text-align: center;
+}
+.footer_joyeria{
+    grid-area: pie;
+    background-color: rgb(183, 160, 160);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: "logo desc icon"
+}
+@media(max-width:1080px){
+    .joyeria{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px 1300px 1400px 100px;
+        grid-template-areas: "nav nav nav nav"
+                             "main main main main"
+                             "aside aside aside aside"
+                             "pie pie pie pie";
+    }
+
+}
+@media(max-width:810px){
+    .joyeria{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px 1100px 2000px 100px;
+        grid-template-areas: "nav nav nav nav"
+                             "main main main main"
+                             "aside aside aside aside"
+                             "pie pie pie pie";
+    }
+    .joyeria_caja5{
+        width: auto;
+        margin: auto;
+    }
+    .joyeria_img{
+        width: 440px;
+    }
+}
+@media(max-width:650px){
+    .joyeria{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px 1000px 3600px 150px;
+        grid-template-areas: "nav nav nav nav"
+                             "main main main main"
+                             "aside aside aside aside"
+                             "pie pie pie pie";
+    
+    }
+    .joyeria_caja5{
+        width: auto;
+        margin: auto;
+    }
+    .joyeria_img{
+        width: 310px;
+    }
+    .joyeria_bloque2{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:350px){
+    .joyeria_img{
+        width: 250px;
+    }
+}
+
+/*relojería_estructúra*/
+
+.relojeria{
+    font-family: Montserrat-Regular;
+    background-color: rgb(241, 230, 240);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px 1600px 1100px 110px;
+    grid-template-areas: "nav nav nav nav"
+                         "main main main main"
+                         "aside aside aside aside"
+                         "pie pie pie pie";
+}
+.header_relojeria{
+    z-index: 1;
+    grid-area: nav;
+    position: fixed;
+    background-color: rgb(183, 160, 160);
+    width: 100%;
+    height: 100px;
+}
+.main_relojeria{
+    z-index: 0;
+    grid-area: main;
+}
+.relojeria_caja1{
+    width: 100%;
+}
+.relojeria_slider{
+    width: 100%;
+}
+.relojeria_caja2{
+    background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+}
+.relojeria_bloque1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.relojeria_caja3{
+    text-align: center;
+    width: 200px;
+    background-color: rgb(234, 217, 231);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.relojeria_caja4{
+    width: 500px;
+    background-color: rgb(234, 217, 231);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.relojeria_caja5{
+    width: auto;
+}
+.relojeria_img{
+    width: 500px;
+    border-radius: 20px;
+}
+.relojeria_bloque2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.relojeria_caja6{
+    width: auto;
+    margin: 10px;
+}
+.relojeria_caja7{
+    background-color: rgb(234, 217, 231);
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.relojeria_caja8{
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+}
+.aside_relojeria{
+    grid-area: aside;
+}
+.relojeria_bloque3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer_relojeria{
+    grid-area: pie;
+    background-color: rgb(183, 160, 160);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: "logo desc icon";
+}
+@media(max-width:1080px){
+    .relojeria{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px 1600px 1500px 100px;
+        grid-template-areas: "nav nav nav nav"
+                             "main main main main"
+                             "aside aside aside aside"
+                             "pie pie pie pie";
+    }
+}
+@media(max-width:810px){
+    .relojeria{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px 1500px 1800px 100px;
+        grid-template-areas: "nav nav nav nav"
+                             "main main main main"
+                             "aside aside aside aside"
+                             "pie pie pie pie";
+    }
+    .relojeria_img{
+        width: 440px;
+    }
+}
+@media(max-width:650px){
+    .relojeria{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px 1300px 3600px 150px;
+        grid-template-areas: "nav nav nav nav"
+                             "main main main main"
+                             "aside aside aside aside"
+                             "pie pie pie pie";
+    
+    }
+    .relojeria_img{
+        width: 310px;
+    }
+    .relojeria_bloque3{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:350px){
+    .relojeria_img{
+        width: 250px;
+    }
+}
+
+/*tienda_estructúra*/
+
+.tienda{
+    font-family: Montserrat-Regular;
+    background-color: rgb(241, 230, 240);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px 1300px 110px;
+    grid-template-areas: "nav nav nav nav"
+                         "main main main main"
+                         "pie pie pie pie";
+}
+.header_tienda{
+    z-index: 1;
+    grid-area: nav;
+    width: 100%;
+    background-color: rgb(183, 160, 160);
+    position: fixed;
+    height: 100px;
+}
+.main_tienda{
+    z-index: 0;
+    grid-area: main;
+}
+.tienda_caja1{
+    width: 100%;
+}
+.tienda_slider{
+    width: 100%;
+}
+.tienda_caja2{
+    background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+    width: 100%;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+}
+.tienda_bloque1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.tienda_caja3{
+    background-color: rgb(234, 217, 231);
+    width: 500px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+.tienda_caja4{
+    width: 700px;
+    margin: 20px;
+}
+.tienda_img{
+    border-radius: 10px;
+    width: 700px;
+}
+@media(max-width:800px){
+    .tienda_caja4{
+        width: auto;
+    }
+    .tienda_img{
+        width: 450px;   
+    }
+}
+.tienda_btn{
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 24px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: fixed;
+    bottom: 150px;
+    right: 100px;
+}
+.footer_tienda{
+    grid-area: pie;
+    background-color: rgb(183, 160, 160);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: "logo desc icon";
+}
+@media(max-width:850px){
+    .tienda{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px 1100px 150px;
+        grid-template-areas: "nav nav nav nav"
+                             "main main main main"
+                             "pie pie pie pie";
+    }
+    .tienda_caja4{
+        width: auto;
+    }
+    .tienda_img{
+        width: 450px;
+    }
+}
+@media(max-width:650px){
+    .tienda_img{
+        width: 310px;
+    }
+    .tienda_caja4{
+        width: auto;
+    }
+    .tienda{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px 800px 150px;
+        grid-template-areas: "nav nav nav nav"
+                             "main main main main"
+                             "pie pie pie pie";
+    }
+}
+@media(max-width:350px){
+    .tienda_caja4{
+        width: auto;
+    }
+    .tienda_img{
+        width: 250px;
+    }
+}
+
+/*contacto_estructúra*/
+
+.contacto{
+    font-family: Montserrat-Regular;
+    background-color: rgb(241, 230, 240);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px 1100px 100px 110px;
+    grid-template-areas: "nav nav nav nav"
+                         "main main main main"
+                         "aside aside aside aside"
+                         "pie pie pie pie";
+}
+.header_contacto{
+    grid-area: nav;
+    background-color: rgb(183, 160, 160);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+.main_contacto{
+    grid-area: main;
+}
+.contacto_caja1{
+    background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+    width: 100%;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+}
+.formulario{ 
+    background-color: rgb(98, 125, 120);
+    max-width: 750px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 1fr 100px 100px;
+    grid-template-areas: "nombre apellido"
+                         "teléfono email"
+                         "mensaje mensaje"
+                         "enviar enviar";
+}
+.formulario > label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.formulario > label > input{
+    background-color: transparent;
+    border: 0ch;
+    border-bottom: solid 1px;
+    outline: none;
+}
+.formulario > label > textarea{
+    background-color: transparent;
+    border: 0ch;
+    border-bottom: solid 1px;
+    outline: none;
+}
+.formulario :nth-child(1){
+    grid-area: nombre;
+    padding: 5px;
+}
+.formulario :nth-child(2){
+    grid-area: apellido;
+    padding: 5px;
+}
+.formulario :nth-child(3){
+    grid-area: teléfono;
+    padding: 5px;
+}
+.formulario :nth-child(4){
+    grid-area: email;
+    padding: 5px;
+}
+.formulario :nth-child(5){
+    grid-area: mensaje;
+    padding: 5px;
+}
+.formulario :nth-child(6){
+    grid-area: enviar;
+    border-radius: 10px; 
+    border: none;   
+    font-size: 20px;
+    margin: 20px;
+    background-color: rgba(38, 174, 237, 0.829);
+    width: 150px;
+    justify-self: center;
+}
+.mapa{
+    width: 650px;
+    background-color: rgb(234, 217, 231);
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.footer_contacto{
+    grid-area: pie;
+    background-color: rgb(183, 160, 160);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: "logo desc icon";
+}
+@media(max-width:800px){
+    .formulario{
+        margin: auto;
+        max-width: 500px;
+    }
+    .mapa{
+        margin: auto;
+        width: auto;
+        height: 500px;
+    }
+    .mapa > iframe{
+        width: 500px;
+        height: 450px;
+    }
+    
+}
+@media(max-width:650px){
+    .contacto{
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px 900px 100px 150px;
+        grid-template-areas: "nav nav nav nav"
+                             "main main main main"
+                             "aside aside aside aside"
+                             "pie pie pie pie";
+    }
+    .formulario{
+        margin: auto;
+        max-width: 400px;
+    }
+    .mapa{
+        margin: auto;
+        width: auto;
+        height: 350px;
+    }
+    .mapa > iframe{
+        width: 350px;
+        height: 300px;
+    }
+}
+@media(max-width:350px){
+    .formulario{
+        margin: auto;
+        width: 250px;
+    }
+    .mapa{
+        width: auto;
+        height: 250px;
+    }
+    .mapa > iframe{
+        max-width: 250px;
+        height: 200px;
+    }
+}
