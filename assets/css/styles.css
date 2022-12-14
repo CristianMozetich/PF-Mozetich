@@ -169,15 +169,14 @@
     background-color: rgb(183, 160, 160);
     grid-area: pie;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-areas: "logo desc icon";
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "desc icon";
 }
 .footer_desc{
-    width: auto;
+    width: 250px;
+    font-size: 14px;
     text-align: center;
-    background-color: rgb(234, 217, 231);
-    border-radius: 10px;
-    margin: 10px auto;
+    margin: 20px auto;
     grid-area: desc;
     display: flex;
     justify-content: center;
@@ -185,7 +184,7 @@
 
 }
 .footer_iconos{
-    text-align: end;
+    text-align: center;
     font-size: 40px;
     margin: 20px;
     padding: 10px;
@@ -419,10 +418,10 @@
     grid-area: pie;
     background-color: rgb(183, 160, 160);
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-areas: "logo desc icon"
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "desc icon"
 }
-@media(max-width:1080px){
+@media(max-width:1160px){
     .joyeria{
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: 100px 1300px 1400px 100px;
@@ -433,7 +432,7 @@
     }
 
 }
-@media(max-width:810px){
+@media(max-width:870px){
     .joyeria{
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: 100px 1100px 2000px 100px;
@@ -453,7 +452,7 @@
 @media(max-width:650px){
     .joyeria{
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 100px 1000px 3600px 150px;
+        grid-template-rows: 100px 1000px 3700px 150px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "aside aside aside aside"
@@ -584,10 +583,10 @@
     grid-area: pie;
     background-color: rgb(183, 160, 160);
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-areas: "logo desc icon";
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "desc icon";
 }
-@media(max-width:1080px){
+@media(max-width:1160px){
     .relojeria{
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: 100px 1600px 1500px 100px;
@@ -597,10 +596,10 @@
                              "pie pie pie pie";
     }
 }
-@media(max-width:810px){
+@media(max-width:870px){
     .relojeria{
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 100px 1500px 1800px 100px;
+        grid-template-rows: 100px 1500px 1900px 100px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "aside aside aside aside"
@@ -613,7 +612,7 @@
 @media(max-width:650px){
     .relojeria{
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 100px 1300px 3600px 150px;
+        grid-template-rows: 100px 1300px 3700px 150px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "aside aside aside aside"
@@ -714,13 +713,13 @@
     grid-area: pie;
     background-color: rgb(183, 160, 160);
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-areas: "logo desc icon";
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "desc icon";
 }
 @media(max-width:850px){
     .tienda{
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 100px 1100px 150px;
+        grid-template-rows: 100px 1000px 110px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "pie pie pie pie";
@@ -859,8 +858,8 @@
     grid-area: pie;
     background-color: rgb(183, 160, 160);
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-areas: "logo desc icon";
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "desc icon";
 }
 @media(max-width:800px){
     .formulario{
@@ -901,11 +900,7 @@
         height: 300px;
     }
 }
-@media(max-width:350px){
-    .formulario{
-        margin: auto;
-        width: 250px;
-    }
+@media(max-width:450px){
     .mapa{
         width: auto;
         height: 250px;
