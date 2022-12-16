@@ -833,10 +833,10 @@
 }
 .mapa{
     width: 650px;
-    background-color: rgb(234, 217, 231);
+    background-color: rgb(98, 125, 120);
     text-align: center;
     padding: 20px;
-    margin: 20px auto;
+    margin: auto;
     border-radius: 10px;
 }
 .footer_contacto{
@@ -846,22 +846,6 @@
     align-items: center;
 }
 @media(max-width:800px){
-    .formulario{
-        margin: auto;
-        max-width: 500px;
-    }
-    .mapa{
-        margin: auto;
-        width: auto;
-        height: 500px;
-    }
-    .mapa > iframe{
-        width: 500px;
-        height: 450px;
-    }
-    
-}
-@media(max-width:650px){
     .contacto{
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: 100px 900px 100px 200px;
@@ -875,8 +859,9 @@
         max-width: 400px;
     }
     .mapa{
-        margin: auto;
-        width: auto;
+        text-align: center;
+        margin: 20px auto;
+        width: 400px;
         height: 350px;
     }
     .mapa > iframe{
@@ -885,12 +870,27 @@
     }
 }
 @media(max-width:450px){
+    .formulario{
+        width: 250px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 100px 100px;
+        grid-template-areas: "nombre"
+                             "apellido"
+                             "teléfono" 
+                             "email"
+                             "mensaje"
+                             "enviar";
+    }
     .mapa{
-        width: auto;
+        align-items: center;
+        width: 250px;
         height: 250px;
+        margin: 20px auto;
+        text-align: center;
     }
     .mapa > iframe{
-        max-width: 250px;
+        width: 200px;
         height: 200px;
     }
 }
