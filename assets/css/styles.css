@@ -30,6 +30,7 @@
     z-index: 1;
     grid-template-columns: repeat(3,1fr);
     grid-template-areas: "logo nav espacio";
+    align-items: center;
 }
 .contenedor_logo{
     width: 100px;
