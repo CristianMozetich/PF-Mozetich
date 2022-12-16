@@ -367,6 +367,9 @@
     display: flex;
     align-items: center;
 }
+.joyeria_desc{
+    margin: 10px;
+}
 .joyeria_caja5{
     width: 500px;
 }
@@ -675,6 +678,9 @@
     margin: 20px;
     display: flex;
     align-items: center;
+}
+.tienda_desc{
+    margin: 10px;
 }
 .tienda_caja4{
     width: 700px;
