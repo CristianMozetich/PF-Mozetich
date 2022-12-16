@@ -22,7 +22,7 @@
                         
 }
 /*navegador*/
-.header_magenta{
+.header{
     display: grid;
     background-color: black;
     grid-area: nav;
@@ -72,7 +72,11 @@
 .navegador > .fa-bars{
     display: none;
 }
-@media(max-width:650px){
+@media(max-width:710px){
+    .header{
+        display: flex;
+        flex-direction: row-reverse;
+    }
     .navegador > .fa-bars{
         display: block;
         color: rgb(215, 222, 227);
@@ -327,18 +331,6 @@
                          "aside aside aside aside"
                          "pie pie pie pie";
 }
-.header_joyeria{
-    grid-area: nav;
-    background-color: black;
-    position: fixed;
-    height: 100px;
-    width: 100%;
-    z-index: 1;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-areas: "logo nav espacio";
-    
-}
 .main_joyeria{
     z-index: 0;
     grid-area: main;
@@ -509,17 +501,6 @@
                          "aside aside aside aside"
                          "pie pie pie pie";
 }
-.header_relojeria{
-    display: grid;
-    z-index: 1;
-    grid-area: nav;
-    position: fixed;
-    background-color: black;
-    width: 100%;
-    height: 100px;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-areas: "logo nav espacio";
-}
 .main_relojeria{
     z-index: 0;
     grid-area: main;
@@ -667,17 +648,6 @@
                          "main main main main"
                          "pie pie pie pie";
 }
-.header_tienda{
-    z-index: 1;
-    grid-area: nav;
-    width: 100%;
-    background-color: black;
-    position: fixed;
-    height: 100px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-areas: "logo nav espacio";
-}
 .main_tienda{
     z-index: 0;
     grid-area: main;
@@ -792,16 +762,6 @@
                          "main main main main"
                          "aside aside aside aside"
                          "pie pie pie pie";
-}
-.header_contacto{
-    grid-area: nav;
-    background-color: black;
-    width: 100%;
-    height: 100px;
-    position: fixed;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-areas: "logo nav espacio";
 }
 .main_contacto{
     grid-area: main;
