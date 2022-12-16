@@ -842,7 +842,7 @@
     grid-area: pie;
     background-color: black;
     display: flex;
-    align-items: center;
+    align-items: centergit;
 }
 @media(max-width:800px){
     .formulario{
