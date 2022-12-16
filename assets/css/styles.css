@@ -87,7 +87,7 @@
     .navegador > ul{
         position: fixed;
         flex-direction: column;
-        background-color: rgb(183, 160, 160);
+        background-color: black;
         width: 250px;
         height: 100vh;
         justify-content: start;
