@@ -186,27 +186,22 @@
 .footer_magenta{
     background-color: black;
     grid-area: pie;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-areas: "desc icon";
+    display: flex;
+    align-items: center;
 }
 .footer_desc{
-    width: 250px;
     font-size: 14px;
-    text-align: center;
-    margin: 20px auto;
-    grid-area: desc;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    margin: 20px;
     color: white;
+    width: 50%;
+    text-align: center;
 }
 .footer_iconos{
     text-align: center;
     font-size: 40px;
     margin: 20px;
     padding: 10px;
-    grid-area: icon;
+    width: 50%;
 }
 .footer_iconos > a{
     text-decoration: none;
@@ -255,7 +250,7 @@
     .magenta{
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 100px 2000px 160px;
+        grid-template-rows: 100px 2000px 200px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "pie pie pie pie"; 
@@ -287,7 +282,7 @@
     .magenta{
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 100px 2200px 160px;
+        grid-template-rows: 100px 2200px 200px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "pie pie pie pie"; 
@@ -429,9 +424,8 @@
 .footer_joyeria{
     grid-area: pie;
     background-color: black;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-areas: "desc icon"
+    display: flex;
+    align-items: center;
 }
 @media(max-width:1160px){
     .joyeria{
@@ -464,7 +458,7 @@
 @media(max-width:650px){
     .joyeria{
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 100px 1000px 3700px 160px;
+        grid-template-rows: 100px 1000px 3700px 200px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "aside aside aside aside"
@@ -586,9 +580,8 @@
 .footer_relojeria{
     grid-area: pie;
     background-color: black;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-areas: "desc icon";
+    display: flex;
+    align-items: center;
 }
 @media(max-width:1160px){
     .relojeria{
@@ -616,7 +609,7 @@
 @media(max-width:650px){
     .relojeria{
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 100px 1300px 3700px 160px;
+        grid-template-rows: 100px 1300px 3700px 200px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "aside aside aside aside"
@@ -711,9 +704,8 @@
 .footer_tienda{
     grid-area: pie;
     background-color: black;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-areas: "desc icon";
+    display: flex;
+    align-items: center;
 }
 @media(max-width:850px){
     .tienda{
@@ -739,7 +731,7 @@
     }
     .tienda{
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 100px 800px 160px;
+        grid-template-rows: 100px 800px 200px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "pie pie pie pie";
@@ -849,9 +841,8 @@
 .footer_contacto{
     grid-area: pie;
     background-color: black;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-areas: "desc icon";
+    display: flex;
+    align-items: center;
 }
 @media(max-width:800px){
     .formulario{
@@ -872,7 +863,7 @@
 @media(max-width:650px){
     .contacto{
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 100px 900px 100px 160px;
+        grid-template-rows: 100px 900px 100px 200px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "aside aside aside aside"
