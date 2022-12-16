@@ -37,9 +37,9 @@
     justify-self: center;
 }
 .logo{
-    width: 70px;
-    height: 70px;
-    margin: 15px;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
 }
 .navegador{
     width: 600px;
@@ -427,7 +427,7 @@
     display: flex;
     align-items: center;
 }
-@media(max-width:1160px){
+@media(max-width:1170px){
     .joyeria{
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: 100px 1300px 1900px 100px;
@@ -490,7 +490,7 @@
     background-color: rgb(241, 230, 240);
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 100px 1600px 1100px 160px;
+    grid-template-rows: 100px 1600px 1100px 110px;
     grid-template-areas: "nav nav nav nav"
                          "main main main main"
                          "aside aside aside aside"
@@ -583,7 +583,7 @@
     display: flex;
     align-items: center;
 }
-@media(max-width:1160px){
+@media(max-width:1180px){
     .relojeria{
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: 100px 1600px 1900px 110px;
@@ -842,7 +842,7 @@
     grid-area: pie;
     background-color: black;
     display: flex;
-    align-items: centergit;
+    align-items: center;
 }
 @media(max-width:800px){
     .formulario{
