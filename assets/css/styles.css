@@ -24,7 +24,7 @@
 /*navegador*/
 .header_magenta{
     display: grid;
-    background-color: rgb(183, 160, 160);
+    background-color: black;
     grid-area: nav;
     position: fixed;
     width: 100%;
@@ -67,7 +67,7 @@
     border-radius: 20px;
     padding: 10px;
     text-decoration: none;
-    color: rgb(0, 0, 0);   
+    color: rgb(255, 255, 255);   
 }
 .navegador > .fa-bars{
     display: none;
@@ -182,7 +182,7 @@
     border-radius: 20px;
 }
 .footer_magenta{
-    background-color: rgb(183, 160, 160);
+    background-color: black;
     grid-area: pie;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -197,7 +197,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    color: white;
 }
 .footer_iconos{
     text-align: center;
@@ -208,7 +208,7 @@
 }
 .footer_iconos > a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 @media(max-width:1300px){
     .magenta{
@@ -329,7 +329,7 @@
 }
 .header_joyeria{
     grid-area: nav;
-    background-color: rgb(183, 160, 160);
+    background-color: black;
     position: fixed;
     height: 100px;
     width: 100%;
@@ -435,7 +435,7 @@
 }
 .footer_joyeria{
     grid-area: pie;
-    background-color: rgb(183, 160, 160);
+    background-color: black;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-areas: "desc icon"
@@ -514,7 +514,7 @@
     z-index: 1;
     grid-area: nav;
     position: fixed;
-    background-color: rgb(183, 160, 160);
+    background-color: black;
     width: 100%;
     height: 100px;
     grid-template-columns: repeat(3,1fr);
@@ -603,7 +603,7 @@
 }
 .footer_relojeria{
     grid-area: pie;
-    background-color: rgb(183, 160, 160);
+    background-color: black;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-areas: "desc icon";
@@ -671,7 +671,7 @@
     z-index: 1;
     grid-area: nav;
     width: 100%;
-    background-color: rgb(183, 160, 160);
+    background-color: black;
     position: fixed;
     height: 100px;
     display: grid;
@@ -736,7 +736,7 @@
 }
 .footer_tienda{
     grid-area: pie;
-    background-color: rgb(183, 160, 160);
+    background-color: black;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-areas: "desc icon";
@@ -795,7 +795,7 @@
 }
 .header_contacto{
     grid-area: nav;
-    background-color: rgb(183, 160, 160);
+    background-color: black;
     width: 100%;
     height: 100px;
     position: fixed;
@@ -884,7 +884,7 @@
 }
 .footer_contacto{
     grid-area: pie;
-    background-color: rgb(183, 160, 160);
+    background-color: black;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-areas: "desc icon";
