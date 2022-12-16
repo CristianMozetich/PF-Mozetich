@@ -255,7 +255,7 @@
     .magenta{
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 100px 2000px 110px;
+        grid-template-rows: 100px 2000px 160px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "pie pie pie pie"; 
@@ -287,7 +287,7 @@
     .magenta{
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 100px 2200px 110px;
+        grid-template-rows: 100px 2200px 160px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "pie pie pie pie"; 
@@ -464,7 +464,7 @@
 @media(max-width:650px){
     .joyeria{
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 100px 1000px 3700px 110px;
+        grid-template-rows: 100px 1000px 3700px 160px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "aside aside aside aside"
@@ -496,7 +496,7 @@
     background-color: rgb(241, 230, 240);
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 100px 1600px 1100px 110px;
+    grid-template-rows: 100px 1600px 1100px 160px;
     grid-template-areas: "nav nav nav nav"
                          "main main main main"
                          "aside aside aside aside"
@@ -616,7 +616,7 @@
 @media(max-width:650px){
     .relojeria{
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 100px 1300px 3700px 110px;
+        grid-template-rows: 100px 1300px 3700px 160px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "aside aside aside aside"
@@ -739,7 +739,7 @@
     }
     .tienda{
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 100px 800px 110px;
+        grid-template-rows: 100px 800px 160px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "pie pie pie pie";
@@ -872,7 +872,7 @@
 @media(max-width:650px){
     .contacto{
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: 100px 900px 100px 110px;
+        grid-template-rows: 100px 900px 100px 160px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "aside aside aside aside"
