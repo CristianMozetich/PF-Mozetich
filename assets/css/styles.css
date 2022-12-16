@@ -10,6 +10,32 @@
 
 /*magenta_estructúra*/
 
+.loading{
+    z-index: 3;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.815);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading > i{
+    color: white;
+    font-size: 60px;
+    animation-name: rotar;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotar {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
 .magenta{
     font-family: Montserrat-Regular;
     display: grid;
