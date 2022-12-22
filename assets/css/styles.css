@@ -3,6 +3,10 @@
     padding: 0%;
     box-sizing: border-box;
 }
+.row,.container,.container-fluid{
+    margin: 0%;
+    padding: 0%;
+}
 @font-face {
     font-family: Montserrat-Regular;
     src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
@@ -35,33 +39,26 @@
         transform: rotateZ(360deg);
     }
 }
-
 .magenta{
     font-family: Montserrat-Regular;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows: 100px 2600px 110px;
-    grid-template-areas: "nav nav nav nav"
-                         "main main main main"
-                         "pie pie pie pie";                       
+    grid-template-areas: "nav nav nav"
+                         "main main main"
+                         "pie pie pie";                       
 }
 /*navegador*/
 .header{
-    display: grid;
+    display: flex;
     background-color: black;
     grid-area: nav;
     position: fixed;
     width: 100%;
     height: 100px;
     z-index: 1;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-areas: "logo nav espacio";
+    justify-content: center;
     align-items: center;
-}
-.contenedor_logo{
-    width: 100px;
-    grid-area: logo;
-    justify-self: center;
 }
 .logo{
     width: 80px;
@@ -69,7 +66,6 @@
     margin: 10px;
 }
 .navegador{
-    width: 600px;
     grid-area: nav;
 }
 .navegador > ul{
@@ -97,10 +93,11 @@
 .navegador > .fa-bars{
     display: none;
 }
-@media(max-width:710px){
+@media(max-width:800px){
     .header{
         display: flex;
         flex-direction: row-reverse;
+        justify-content: space-around;
     }
     .navegador > .fa-bars{
         display: block;
@@ -235,20 +232,20 @@
 }
 @media(max-width:1300px){
     .magenta{
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 100px 3100px 110px;
-        grid-template-areas: "nav nav nav nav"
-                             "main main main main"
-                             "pie pie pie pie"; 
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "pie pie pie"; 
     }
 }
 @media(max-width:900px){
     .magenta{
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 100px 2400px 110px;
-        grid-template-areas: "nav nav nav nav"
-                             "main main main main"
-                             "pie pie pie pie"; 
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "pie pie pie"; 
     }
     .magenta_caja4{
         width: auto;
@@ -275,11 +272,11 @@
 @media(max-width:650px){
     .magenta{
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 100px 2000px 200px;
-        grid-template-areas: "nav nav nav nav"
-                             "main main main main"
-                             "pie pie pie pie"; 
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "pie pie pie"; 
                                               
         }
     .magenta_caja4{
@@ -307,11 +304,11 @@
 @media(max-width:350px){
     .magenta{
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 100px 2200px 200px;
-        grid-template-areas: "nav nav nav nav"
-                             "main main main main"
-                             "pie pie pie pie"; 
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "pie pie pie"; 
                                               
         }
     .magenta_caja4{
@@ -343,12 +340,12 @@
     font-family: Montserrat-Regular;
     background-color: rgb(241, 230, 240);
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows: 100px 1300px 1100px 110px;
-    grid-template-areas: "nav nav nav nav"
-                         "main main main main"
-                         "aside aside aside aside"
-                         "pie pie pie pie";
+    grid-template-areas: "nav nav nav"
+                         "main main main"
+                         "aside aside aside"
+                         "pie pie pie";
 }
 .main_joyeria{
     z-index: 0;
@@ -455,23 +452,23 @@
 }
 @media(max-width:1170px){
     .joyeria{
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 100px 1300px 1900px 100px;
-        grid-template-areas: "nav nav nav nav"
-                             "main main main main"
-                             "aside aside aside aside"
-                             "pie pie pie pie";
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "aside aside aside"
+                             "pie pie pie";
     }
 
 }
 @media(max-width:870px){
     .joyeria{
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 100px 1100px 2000px 110px;
-        grid-template-areas: "nav nav nav nav"
-                             "main main main main"
-                             "aside aside aside aside"
-                             "pie pie pie pie";
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "aside aside aside"
+                             "pie pie pie";
     }
     .joyeria_caja5{
         width: auto;
@@ -483,12 +480,12 @@
 }
 @media(max-width:650px){
     .joyeria{
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 100px 1000px 3700px 200px;
-        grid-template-areas: "nav nav nav nav"
-                             "main main main main"
-                             "aside aside aside aside"
-                             "pie pie pie pie";
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "aside aside aside"
+                             "pie pie pie";
     
     }
     .joyeria_caja5{
@@ -515,12 +512,12 @@
     font-family: Montserrat-Regular;
     background-color: rgb(241, 230, 240);
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows: 100px 1600px 1100px 110px;
-    grid-template-areas: "nav nav nav nav"
-                         "main main main main"
-                         "aside aside aside aside"
-                         "pie pie pie pie";
+    grid-template-areas: "nav nav nav"
+                         "main main main"
+                         "aside aside aside"
+                         "pie pie pie";
 }
 .main_relojeria{
     z-index: 0;
@@ -611,22 +608,22 @@
 }
 @media(max-width:1180px){
     .relojeria{
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 100px 1600px 1900px 110px;
-        grid-template-areas: "nav nav nav nav"
-                             "main main main main"
-                             "aside aside aside aside"
-                             "pie pie pie pie";
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "aside aside aside"
+                             "pie pie pie";
     }
 }
 @media(max-width:870px){
     .relojeria{
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 100px 1500px 1900px 110px;
-        grid-template-areas: "nav nav nav nav"
-                             "main main main main"
-                             "aside aside aside aside"
-                             "pie pie pie pie";
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "aside aside aside"
+                             "pie pie pie";
     }
     .relojeria_img{
         width: 440px;
@@ -634,12 +631,12 @@
 }
 @media(max-width:650px){
     .relojeria{
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 100px 1300px 3700px 200px;
-        grid-template-areas: "nav nav nav nav"
-                             "main main main main"
-                             "aside aside aside aside"
-                             "pie pie pie pie";
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "aside aside aside"
+                             "pie pie pie";
     
     }
     .relojeria_img{
@@ -666,9 +663,9 @@
     grid-template-columns: repeat(4,1fr);
     */
     grid-template-rows: 100px 2400px 110px;
-    grid-template-areas: "nav nav nav nav"
-                         "main main main main"
-                         "pie pie pie pie";
+    grid-template-areas: "nav nav nav"
+                         "main main main"
+                         "pie pie pie";
 }
 .main_tienda{
     z-index: 0;
@@ -745,9 +742,9 @@
 @media(max-width:1000px){
     .tienda{
         grid-template-rows: 100px 2700px 110px;
-        grid-template-areas: "nav nav nav nav"
-                             "main main main main"
-                             "pie pie pie pie";
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "pie pie pie";
     }
 
 }
@@ -755,17 +752,17 @@
 @media(max-width:770px){
     .tienda{
         grid-template-rows: 100px 4600px 200px;
-        grid-template-areas: "nav nav nav nav"
-                             "main main main main"
-                             "pie pie pie pie";
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "pie pie pie";
     }
 }
 @media(max-width:500px){
     .tienda{
         grid-template-rows: 100px 4400px 200px;
-        grid-template-areas: "nav nav nav nav"
-                             "main main main main"
-                             "pie pie pie pie";
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "pie pie pie";
     }
 }
 
@@ -777,12 +774,12 @@
     font-family: Montserrat-Regular;
     background-color: rgb(241, 230, 240);
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-template-rows: 100px 1100px 100px 110px;
-    grid-template-areas: "nav nav nav nav"
-                         "main main main main"
-                         "aside aside aside aside"
-                         "pie pie pie pie";
+    grid-template-areas: "nav nav nav"
+                         "main main main"
+                         "aside aside aside"
+                         "pie pie pie";
 }
 .main_contacto{
     grid-area: main;
@@ -871,12 +868,12 @@
 }
 @media(max-width:800px){
     .contacto{
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 100px 900px 100px 200px;
-        grid-template-areas: "nav nav nav nav"
-                             "main main main main"
-                             "aside aside aside aside"
-                             "pie pie pie pie";
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "aside aside aside"
+                             "pie pie pie";
     }
     .formulario{
         margin: auto;
