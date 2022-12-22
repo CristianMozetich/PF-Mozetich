@@ -666,7 +666,7 @@
     /*
     grid-template-columns: repeat(4,1fr);
     */
-    grid-template-rows: 100px 2000px 110px;
+    grid-template-rows: 100px 2200px 110px;
     grid-template-areas: "nav nav nav nav"
                          "main main main main"
                          "pie pie pie pie";
@@ -713,7 +713,8 @@
     width: 700px;
 }
 .producto{
-    width: 200px;
+    width: 250px;
+    background-image: linear-gradient(rgba(21, 8, 63, 0.584),rgba(0, 0, 255, 0.518));
 }
 .tienda_btn{
     border-radius: 10px;
@@ -722,7 +723,7 @@
     background-color: rgb(255, 255, 255);
     text-decoration: none;
     position: fixed;
-    bottom: 150px;
+    bottom: 100px;
     right: 100px;
 }
 .footer_tienda{
@@ -734,7 +735,7 @@
 
 @media(max-width:850px){
     .tienda{
-        grid-template-rows: 100px 2500px 110px;
+        grid-template-rows: 100px 4300px 110px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "pie pie pie pie";
@@ -743,7 +744,7 @@
 }
 @media(max-width:650px){
     .tienda{
-        grid-template-rows: 100px 2800px 200px;
+        grid-template-rows: 100px 4300px 200px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "pie pie pie pie";
