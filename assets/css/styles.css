@@ -218,7 +218,6 @@
 }
 .footer_desc{
     font-size: 14px;
-    margin: 20px;
     color: white;
     width: 50%;
     text-align: center;
@@ -666,7 +665,7 @@
     /*
     grid-template-columns: repeat(4,1fr);
     */
-    grid-template-rows: 100px 2200px 110px;
+    grid-template-rows: 100px 2400px 110px;
     grid-template-areas: "nav nav nav nav"
                          "main main main main"
                          "pie pie pie pie";
@@ -714,7 +713,17 @@
 }
 .producto{
     width: 250px;
-    background-image: linear-gradient(rgba(21, 8, 63, 0.584),rgba(0, 0, 255, 0.518));
+    background-image: linear-gradient(to bottom,rgb(0, 102, 255),rgb(34, 34, 59));
+    border-radius: 10px;
+    color: white;
+}
+.boton_tienda{
+    background-color: rgb(255, 255, 255);
+    width: 130px;
+    align-self: center;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
 }
 .tienda_btn{
     border-radius: 10px;
@@ -733,23 +742,34 @@
     align-items: center;
 }
 
-@media(max-width:850px){
+@media(max-width:1000px){
     .tienda{
-        grid-template-rows: 100px 4300px 110px;
+        grid-template-rows: 100px 2700px 110px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "pie pie pie pie";
     }
 
 }
-@media(max-width:650px){
+
+@media(max-width:770px){
     .tienda{
-        grid-template-rows: 100px 4300px 200px;
+        grid-template-rows: 100px 4600px 200px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "pie pie pie pie";
     }
 }
+@media(max-width:500px){
+    .tienda{
+        grid-template-rows: 100px 4400px 200px;
+        grid-template-areas: "nav nav nav nav"
+                             "main main main main"
+                             "pie pie pie pie";
+    }
+}
+
+
 
 /*contacto_estructúra*/
 
