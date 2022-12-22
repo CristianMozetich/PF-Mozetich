@@ -663,7 +663,9 @@
     font-family: Montserrat-Regular;
     background-color: rgb(241, 230, 240);
     display: grid;
+    /*
     grid-template-columns: repeat(4,1fr);
+    */
     grid-template-rows: 100px 1300px 110px;
     grid-template-areas: "nav nav nav nav"
                          "main main main main"
@@ -710,14 +712,6 @@
     border-radius: 10px;
     width: 700px;
 }
-@media(max-width:800px){
-    .tienda_caja4{
-        width: auto;
-    }
-    .tienda_img{
-        width: 450px;   
-    }
-}
 .tienda_btn{
     border-radius: 10px;
     padding: 20px;
@@ -734,42 +728,22 @@
     display: flex;
     align-items: center;
 }
+
 @media(max-width:850px){
     .tienda{
-        grid-template-columns: repeat(4,1fr);
         grid-template-rows: 100px 1000px 110px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "pie pie pie pie";
     }
-    .tienda_caja4{
-        width: auto;
-    }
-    .tienda_img{
-        width: 450px;
-    }
+
 }
 @media(max-width:650px){
-    .tienda_img{
-        width: 310px;
-    }
-    .tienda_caja4{
-        width: auto;
-    }
     .tienda{
-        grid-template-columns: repeat(4,1fr);
         grid-template-rows: 100px 800px 200px;
         grid-template-areas: "nav nav nav nav"
                              "main main main main"
                              "pie pie pie pie";
-    }
-}
-@media(max-width:350px){
-    .tienda_caja4{
-        width: auto;
-    }
-    .tienda_img{
-        width: 250px;
     }
 }
 
