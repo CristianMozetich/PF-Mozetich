@@ -8,6 +8,16 @@
     margin: 0%;
     padding: 0%;
 }
+.main_magenta{
+    overflow: hidden;
+    background-color: rgb(241, 230, 240);
+    margin-top: 100px;
+}
+.main_tienda{
+    background-color: rgb(241, 230, 240);
+    margin-top: 100px;
+    overflow: hidden;
+}
 @font-face {
     font-family: Montserrat-Regular;
     src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
@@ -49,6 +59,7 @@
     z-index: 1;
     justify-content: center;
     align-items: center;
+    top: 0;
 }
 .logo{
     width: 80px;
@@ -350,6 +361,7 @@
 .main_joyeria{
     z-index: 0;
     grid-area: main;
+    overflow: hidden;
 }
 .joyeria_video{
     width: 100%;
@@ -521,6 +533,7 @@
 .main_relojeria{
     z-index: 0;
     grid-area: main;
+    overflow: hidden;
 }
 .relojeria_caja1{
     width: 100%;
