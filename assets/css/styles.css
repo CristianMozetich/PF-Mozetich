@@ -11,9 +11,6 @@
     font-family: Montserrat-Regular;
     src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
 }
-
-/*magenta_estructúra*/
-
 .loading{
     z-index: 3;
     width: 100vw;
@@ -39,15 +36,7 @@
         transform: rotateZ(360deg);
     }
 }
-.magenta{
-    font-family: Montserrat-Regular;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 100px 2600px 110px;
-    grid-template-areas: "nav nav nav"
-                         "main main main"
-                         "pie pie pie";                       
-}
+
 /*navegador*/
 .header{
     display: flex;
@@ -124,11 +113,26 @@
         left: 0;
     }
 }
+/*magenta_estructúra*/
+
+/*
+.magenta{
+    font-family: Montserrat-Regular;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px 2600px 110px;
+    grid-template-areas: "nav nav nav"
+                         "main main main"
+                         "pie pie pie";                       
+}
+*/
+/*
 .main_magenta{
     z-index: 0;
     grid-area: main;
     background-color: rgb(241, 230, 240);
 }
+*/
 .magenta_video{
     width: 100%;
 }
@@ -141,12 +145,14 @@
     text-align: center;
     padding: 10px;
 }
+/*
 .magenta_bloque1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 10px;
 }
+
 .magenta_caja3{
     width: 500px;
     background-color: rgb(234, 217, 231);
@@ -207,6 +213,7 @@
     width: 750px;
     border-radius: 20px;
 }
+*/
 .footer_magenta{
     background-color: black;
     grid-area: pie;
@@ -230,9 +237,9 @@
     text-decoration: none;
     color: white;
 }
+/*
 @media(max-width:1300px){
     .magenta{
-        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 100px 3100px 110px;
         grid-template-areas: "nav nav nav"
                              "main main main"
@@ -241,7 +248,6 @@
 }
 @media(max-width:900px){
     .magenta{
-        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 100px 2400px 110px;
         grid-template-areas: "nav nav nav"
                              "main main main"
@@ -271,8 +277,6 @@
 }
 @media(max-width:650px){
     .magenta{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 100px 2000px 200px;
         grid-template-areas: "nav nav nav"
                              "main main main"
@@ -303,8 +307,6 @@
 }
 @media(max-width:350px){
     .magenta{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
         grid-template-rows: 100px 2200px 200px;
         grid-template-areas: "nav nav nav"
                              "main main main"
@@ -333,7 +335,7 @@
         width: 250px;
     }
 }
-
+*/
 /*joyería_estructúra*/
 
 .joyeria{
@@ -654,23 +656,22 @@
 }
 
 /*tienda_estructúra*/
-
+/*
 .tienda{
     font-family: Montserrat-Regular;
     background-color: rgb(241, 230, 240);
     display: grid;
-    /*
-    grid-template-columns: repeat(4,1fr);
-    */
     grid-template-rows: 100px 2400px 110px;
     grid-template-areas: "nav nav nav"
                          "main main main"
                          "pie pie pie";
 }
+
 .main_tienda{
     z-index: 0;
     grid-area: main;
 }
+*/
 .tienda_caja1{
     width: 100%;
 }
@@ -684,6 +685,7 @@
     margin: 20px auto;
     text-align: center;
 }
+/*
 .tienda_bloque1{
     display: flex;
     flex-wrap: wrap;
@@ -693,13 +695,10 @@
     background-color: rgb(234, 217, 231);
     width: 500px;
     border-radius: 10px;
-    margin: 20px;
     display: flex;
     align-items: center;
 }
-.tienda_desc{
-    margin: 10px;
-}
+/*
 .tienda_caja4{
     width: 700px;
     margin: 20px;
@@ -708,6 +707,7 @@
     border-radius: 10px;
     width: 700px;
 }
+*/
 .producto{
     width: 250px;
     background-image: linear-gradient(to bottom,rgb(0, 102, 255),rgb(34, 34, 59));
@@ -738,7 +738,7 @@
     display: flex;
     align-items: center;
 }
-
+/*
 @media(max-width:1000px){
     .tienda{
         grid-template-rows: 100px 2700px 110px;
@@ -765,8 +765,7 @@
                              "pie pie pie";
     }
 }
-
-
+*/ 
 
 /*contacto_estructúra*/
 
