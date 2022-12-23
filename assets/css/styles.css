@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: Montserrat-Regular;
 }
 .row,.container,.container-fluid{
     margin: 0%;
@@ -61,7 +62,6 @@
     padding: 20px;
     display: flex;
     justify-content:center;
-    font-family: Montserrat-Regular;
     font-size: 20px;   
     list-style: none; 
 }
@@ -117,7 +117,6 @@
 
 /*
 .magenta{
-    font-family: Montserrat-Regular;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 100px 2600px 110px;
@@ -132,10 +131,10 @@
     grid-area: main;
     background-color: rgb(241, 230, 240);
 }
-*/
 .magenta_video{
     width: 100%;
 }
+*/
 .magenta_caja2{
     width: 100%;
     background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
@@ -339,7 +338,6 @@
 /*joyería_estructúra*/
 
 .joyeria{
-    font-family: Montserrat-Regular;
     background-color: rgb(241, 230, 240);
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -511,7 +509,6 @@
 /*relojería_estructúra*/
 
 .relojeria{
-    font-family: Montserrat-Regular;
     background-color: rgb(241, 230, 240);
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -658,7 +655,6 @@
 /*tienda_estructúra*/
 /*
 .tienda{
-    font-family: Montserrat-Regular;
     background-color: rgb(241, 230, 240);
     display: grid;
     grid-template-rows: 100px 2400px 110px;
@@ -671,13 +667,13 @@
     z-index: 0;
     grid-area: main;
 }
-*/
 .tienda_caja1{
     width: 100%;
 }
 .tienda_slider{
     width: 100%;
 }
+*/
 .tienda_caja2{
     background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
     width: 100%;
@@ -770,7 +766,6 @@
 /*contacto_estructúra*/
 
 .contacto{
-    font-family: Montserrat-Regular;
     background-color: rgb(241, 230, 240);
     display: grid;
     grid-template-columns: repeat(3,1fr);
