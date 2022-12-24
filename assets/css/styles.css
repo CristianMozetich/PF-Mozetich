@@ -126,6 +126,7 @@
         justify-content: start;
         align-items: center;
         left: -300px;
+        z-index: 1;
     }
     .navegador ul:hover{
         left: 0;
