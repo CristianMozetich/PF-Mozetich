@@ -425,7 +425,7 @@
 .tarjetas{
     margin: 20px;
     padding: 10px;
-    background-image: linear-gradient(to bottom,rgb(0, 102, 255),rgb(34, 34, 59));
+    background-image: linear-gradient(to bottom,rgb(172, 47, 66),rgb(5, 5, 32));
     width: 250px;
     border-radius: 10px;
     border: solid whitesmoke;
@@ -796,7 +796,7 @@
     text-align: center;
 }
 .formulario{ 
-    background-color: rgb(98, 125, 120);
+    background-color: rgba(225, 130, 130, 0.774);
     max-width: 750px;
     padding: 10px;
     margin: 10px auto;
@@ -858,7 +858,7 @@
 }
 .mapa{
     width: 650px;
-    background-color: rgb(98, 125, 120);
+    background-color: rgba(225, 130, 130, 0.774);
     text-align: center;
     padding: 20px;
     margin: auto;
