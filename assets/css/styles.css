@@ -301,6 +301,9 @@
     font-size: 20px;  
     text-align: center;
 }
+.btn:hover{
+    background-color: rgb(173, 165, 248);
+}
 .footer_joyeria{
     grid-area: pie;
     background-color: black;
@@ -540,6 +543,9 @@
     border-radius: 10px;
     font-size: 20px;
     border: none;
+}
+.boton_tienda:hover{
+    background-color: rgb(173, 165, 248);
 }
 .tienda_btn{
     border-radius: 10px;
