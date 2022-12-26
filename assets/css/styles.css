@@ -188,7 +188,9 @@
     text-decoration: none;
     color: white;
 }
-
+.footer_iconos > a:hover{
+    color: blue;
+}
 /*joyería_estructúra*/
 
 .joyeria{
