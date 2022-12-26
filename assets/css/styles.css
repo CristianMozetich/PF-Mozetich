@@ -133,28 +133,8 @@
     }
 }
 
-/*magenta_estructúra*/
+/*----- magenta_estructúra con bootstrap -----*/
 
-/*
-.magenta{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 100px 2600px 110px;
-    grid-template-areas: "nav nav nav"
-                         "main main main"
-                         "pie pie pie";                       
-}
-*/
-/*
-.main_magenta{
-    z-index: 0;
-    grid-area: main;
-    background-color: rgb(241, 230, 240);
-}
-.magenta_video{
-    width: 100%;
-}
-*/
 .magenta_caja2{
     width: 100%;
     background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
@@ -164,37 +144,13 @@
     text-align: center;
     padding: 10px;
 }
-/*
-.magenta_bloque1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 10px;
-}
-*/
 .magenta_caja3{
     background-color: rgb(234, 217, 231);
     border-radius: 10px;
 }
-/*
-.magenta_caja4{
-    width: 750px;
-}
-*/
 .magenta_img1{
     border-radius: 20px;
 }
-/*
-.magenta_bloque2{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 10px;
-}
-.magenta_caja5{
-    width: 750px;
-}
-*/
 .magenta_img2{
     border-radius: 20px;
 }
@@ -202,23 +158,10 @@
     background-color: rgb(234, 217, 231);
     border-radius: 10px;
 }
-/*
-.magenta_bloque3{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 10px;
-}
-*/
 .magenta_caja7{
     background-color: rgb(234, 217, 231);
     border-radius: 10px;
 }
-/*
-.magenta_caja8{
-    width: 750px;
-}
-*/
 .magenta_img3{
     border-radius: 20px;
 }
@@ -245,105 +188,6 @@
     text-decoration: none;
     color: white;
 }
-/*
-@media(max-width:1300px){
-    .magenta{
-        grid-template-rows: 100px 3100px 110px;
-        grid-template-areas: "nav nav nav"
-                             "main main main"
-                             "pie pie pie"; 
-    }
-}
-@media(max-width:900px){
-    .magenta{
-        grid-template-rows: 100px 2400px 110px;
-        grid-template-areas: "nav nav nav"
-                             "main main main"
-                             "pie pie pie"; 
-    }
-    .magenta_caja4{
-        width: auto;
-        margin: auto;
-    }
-    .magenta_img1{
-        width: 500px;
-    }
-    .magenta_caja5{
-        width: auto;
-        margin: auto;
-    }
-    .magenta_img2{
-        width: 500px;
-    }
-    .magenta_caja8{
-        width: auto;
-        margin: auto;
-    }
-    .magenta_img3{
-        width: 500px;
-    }
-}
-@media(max-width:650px){
-    .magenta{
-        grid-template-rows: 100px 2000px 200px;
-        grid-template-areas: "nav nav nav"
-                             "main main main"
-                             "pie pie pie"; 
-                                              
-        }
-    .magenta_caja4{
-        width: auto;
-        margin: auto;
-    }
-    .magenta_img1{
-        width: 310px;
-    }
-    .megenta_caja5{
-        width: auto;
-        margin: auto;
-    }
-    .magenta_img2{
-        width: 310px;
-    }
-    .magenta_caja8{
-        width: auto;
-        margin: auto;
-    }
-    .magenta_img3{
-        width: 310px;
-    }
-}
-@media(max-width:350px){
-    .magenta{
-        grid-template-rows: 100px 2200px 200px;
-        grid-template-areas: "nav nav nav"
-                             "main main main"
-                             "pie pie pie"; 
-                                              
-        }
-    .magenta_caja4{
-        width: auto;
-        margin: auto;
-    }
-    .magenta_img1{
-        width: 250px;
-    }
-    .megenta_caja5{
-        width: auto;
-        margin: auto;
-    }
-    .magenta_img2{
-        width: 250px;
-    }
-    .magenta_caja8{
-        width: auto;
-        margin: auto;
-    }
-    .magenta_img3{
-        width: 250px;
-    }
-}
-*/
 
 /*joyería_estructúra*/
 
@@ -664,29 +508,8 @@
     }
 }
 
-/*tienda_estructúra*/
+/*----- tienda_estructúra con bootstrap -----*/
 
-/*
-.tienda{
-    background-color: rgb(241, 230, 240);
-    display: grid;
-    grid-template-rows: 100px 2400px 110px;
-    grid-template-areas: "nav nav nav"
-                         "main main main"
-                         "pie pie pie";
-}
-
-.main_tienda{
-    z-index: 0;
-    grid-area: main;
-}
-.tienda_caja1{
-    width: 100%;
-}
-.tienda_slider{
-    width: 100%;
-}
-*/
 .tienda_caja2{
     background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
     width: 100%;
@@ -694,23 +517,10 @@
     margin: 20px auto;
     text-align: center;
 }
-/*
-.tienda_bloque1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-*/
 .tienda_caja3{
     background-color: rgb(234, 217, 231);
     border-radius: 10px;
 }
-/*
-.tienda_caja4{
-    width: 700px;
-    margin: 20px;
-}
-*/
 .tienda_img{
     border-radius: 10px;
 }
@@ -745,34 +555,6 @@
     display: flex;
     align-items: center;
 }
-/*
-@media(max-width:1000px){
-    .tienda{
-        grid-template-rows: 100px 2700px 110px;
-        grid-template-areas: "nav nav nav"
-                             "main main main"
-                             "pie pie pie";
-    }
-
-}
-
-@media(max-width:770px){
-    .tienda{
-        grid-template-rows: 100px 4600px 200px;
-        grid-template-areas: "nav nav nav"
-                             "main main main"
-                             "pie pie pie";
-    }
-}
-@media(max-width:500px){
-    .tienda{
-        grid-template-rows: 100px 4400px 200px;
-        grid-template-areas: "nav nav nav"
-                             "main main main"
-                             "pie pie pie";
-    }
-}
-*/ 
 
 /*contacto_estructúra*/
 
