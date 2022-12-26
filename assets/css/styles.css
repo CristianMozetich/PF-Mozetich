@@ -191,6 +191,14 @@
 .footer_iconos > a:hover{
     color: blue;
 }
+.githublink{
+    color: blue;
+    font-size: 16px;
+    text-decoration: none;
+}
+.githublink:hover{
+    color: red;
+}
 /*joyería_estructúra*/
 
 .joyeria{
