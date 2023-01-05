@@ -1,0 +1,54 @@
+.main_tienda{
+    background-color: rgb(241, 230, 240);
+    margin-top: 100px;
+    overflow: hidden;
+}
+.tienda_caja2{
+    background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+.tienda_titulo{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 32px;
+}
+.tienda_caja3{
+    background-color: rgb(234, 217, 231);
+    border-radius: 10px;
+}
+.tienda_img{
+    border-radius: 10px;
+}
+.producto{
+    width: 250px;
+    background-image: linear-gradient(to bottom,rgb(0, 102, 255),rgb(34, 34, 59));
+    box-shadow: 2px 2px 10px 6px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    color: white;
+}
+.boton_tienda{
+    background-color: rgb(255, 255, 255);
+    width: 130px;
+    align-self: center;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+.boton_tienda:hover{
+    background-color: rgb(173, 165, 248);
+}
+.tienda_btn{
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 24px;
+    background-color: rgb(225, 130, 130);
+    color: black;
+    text-decoration: none;
+    position: fixed;
+    bottom: 200px;
+    right: 10px;
+    box-shadow: 0px 0px 19px 7px rgba(0,0,0,0.75);
+}

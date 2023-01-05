@@ -1,0 +1,131 @@
+.joyeria{
+    background-color: rgb(241, 230, 240);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px 1300px 1100px 120px;
+    grid-template-areas: "nav nav nav"
+                         "main main main"
+                         "aside aside aside"
+                         "pie pie pie";
+}
+.main_joyeria{
+    z-index: 0;
+    grid-area: main;
+    overflow: hidden;
+}
+.joyeria_video{
+    width: 100%;
+}
+.joyeria_caja2{
+    background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 10px;
+}
+.joyeria_bloque1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.joyeria_caja3{
+    background-color: rgb(234, 217, 231);
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.joyeria_caja4{
+    background-color: rgb(234, 217, 231);
+    width: 500px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.joyeria_desc{
+    margin: 10px;
+}
+.joyeria_caja5{
+    width: 500px;
+}
+.joyeria_img{
+    width: 100%;
+    border-radius: 20px;
+}
+.aside_joyeria{
+    grid-area: aside;
+}
+.joyeria_caja6{
+    background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+.joyeria_bloque2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media(max-width:1170px){
+    .joyeria{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 100px 1300px 1900px 120px;
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "aside aside aside"
+                             "pie pie pie";
+    }
+
+}
+@media(max-width:870px){
+    .joyeria{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 100px 1100px 2000px 120px;
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "aside aside aside"
+                             "pie pie pie";
+    }
+    .joyeria_caja5{
+        width: auto;
+        margin: auto;
+    }
+    .joyeria_img{
+        width: 440px;
+    }
+}
+@media(max-width:650px){
+    .joyeria{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 100px 1000px 3900px 150px;
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "aside aside aside"
+                             "pie pie pie";
+    
+    }
+    .joyeria_caja5{
+        width: auto;
+        margin: auto;
+    }
+    .joyeria_img{
+        width: 310px;
+    }
+    .joyeria_bloque2{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:350px){
+    .joyeria_img{
+        width: 250px;
+    }
+}

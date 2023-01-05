@@ -1,0 +1,80 @@
+.contacto{
+    background-color: rgb(241, 230, 240);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px 1100px 100px 120px;
+    grid-template-areas: "nav nav nav"
+                         "main main main"
+                         "aside aside aside"
+                         "pie pie pie";
+}
+.main_contacto{
+    grid-area: main;
+}
+.contacto_caja1{
+    background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+    width: 100%;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.mapa{
+    width: 650px;
+    box-shadow: 2px 2px 10px 6px rgba(0,0,0,0.75);
+    background-color: rgba(225, 130, 130, 0.774);
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+@media(max-width:800px){
+    .contacto{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 100px 900px 100px 150px;
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "aside aside aside"
+                             "pie pie pie";
+    }
+    .formulario{
+        margin: auto;
+        max-width: 400px;
+    }
+    .mapa{
+        text-align: center;
+        margin: 20px auto;
+        width: 400px;
+        height: 350px;
+    }
+    .mapa > iframe{
+        width: 350px;
+        height: 300px;
+    }
+}
+@media(max-width:450px){
+    .formulario{
+        width: 250px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 100px 100px;
+        grid-template-areas: "nombre"
+                             "apellido"
+                             "teléfono" 
+                             "email"
+                             "mensaje"
+                             "enviar";
+    }
+    .mapa{
+        align-items: center;
+        width: 250px;
+        height: 250px;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .mapa > iframe{
+        width: 200px;
+        height: 200px;
+    }
+}
