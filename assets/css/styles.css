@@ -12,19 +12,6 @@
   padding: 0%;
 }
 
-/*Main bootstrap*/
-.main_magenta {
-  overflow: hidden;
-  background-color: rgb(241, 230, 240);
-  margin-top: 100px;
-}
-
-.main_tienda {
-  background-color: rgb(241, 230, 240);
-  margin-top: 100px;
-  overflow: hidden;
-}
-
 /*loading*/
 .loading {
   z-index: 3;
@@ -36,7 +23,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .loading > i {
   color: white;
   font-size: 60px;
@@ -47,7 +33,6 @@
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
-
 @-webkit-keyframes rotar {
   0% {
     transform: rotateZ(0deg);
@@ -56,7 +41,6 @@
     transform: rotateZ(360deg);
   }
 }
-
 @keyframes rotar {
   0% {
     transform: rotateZ(0deg);
@@ -65,6 +49,7 @@
     transform: rotateZ(360deg);
   }
 }
+
 /*navegador*/
 .header {
   display: flex;
@@ -186,7 +171,6 @@
   text-align: center;
   text-decoration: none;
 }
-
 .btn:hover {
   background-color: rgb(173, 165, 248);
 }
@@ -268,8 +252,7 @@
   display: flex;
   align-items: center;
 }
-
-.footer_desc {
+.footer .footer_desc {
   font-size: 14px;
   color: white;
   width: 50%;
@@ -283,13 +266,11 @@
   padding: 10px;
   width: 50%;
 }
-
-.footer_iconos > a {
+.footer_iconos a {
   text-decoration: none;
   color: white;
 }
-
-.footer_iconos > a:hover {
+.footer_iconos a:hover {
   color: blue;
 }
 
@@ -298,7 +279,6 @@
   font-size: 16px;
   text-decoration: none;
 }
-
 .githublink:hover {
   color: blue;
 }
@@ -309,6 +289,12 @@
   src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
 }
 /*----- magenta_estructúra con bootstrap -----*/
+.main_magenta {
+  overflow: hidden;
+  background-color: rgb(241, 230, 240);
+  margin-top: 100px;
+}
+
 .magenta_caja2 {
   width: 100%;
   background-image: linear-gradient(rgb(222, 200, 218), rgb(255, 255, 255));
@@ -622,6 +608,12 @@
   }
 }
 /*----- tienda_estructúra con bootstrap -----*/
+.main_tienda {
+  background-color: rgb(241, 230, 240);
+  margin-top: 100px;
+  overflow: hidden;
+}
+
 .tienda_caja2 {
   background-image: linear-gradient(rgb(222, 200, 218), rgb(255, 255, 255));
   width: 100%;
@@ -660,10 +652,9 @@
   border-radius: 10px;
   font-size: 20px;
   border: none;
-}
-
-.boton_tienda:hover {
-  background-color: rgb(173, 165, 248);
+  text-decoration: none;
+  text-align: center;
+  color: black;
 }
 
 .tienda_btn {

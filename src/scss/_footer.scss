@@ -3,39 +3,34 @@
     grid-area: pie;
     display: flex;
     align-items: center;
+    .footer_desc {
+      font-size: 14px;
+      color: white;
+      width: 50%;
+      text-align: center;   
+    }
   }
-  
-  .footer_desc {
-    font-size: 14px;
-    color: white;
-    width: 50%;
-    text-align: center;
-  }
-  
   .footer_iconos {
     text-align: center;
     font-size: 40px;
     margin: 20px;
     padding: 10px;
     width: 50%;
-  }
-  
-  .footer_iconos > a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .footer_iconos > a:hover {
-    color: blue;
-  }
-  
+    a {
+      text-decoration: none;
+      color: white;
+      &:hover {
+        color: blue;
+      }
+    }  
+  } 
   .githublink {
     color: red;
     font-size: 16px;
     text-decoration: none;
+    &:hover{
+      color: blue;
+    }
   }
-  
-  .githublink:hover {
-    color: blue;
-  }
+
   

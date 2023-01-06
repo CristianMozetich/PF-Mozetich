@@ -31,7 +31,8 @@
     font-size: 20px;  
     text-align: center;
     text-decoration: none;
+    &:hover{
+        background-color: rgb(173, 165, 248);
+    }
 }
-.btn:hover{
-    background-color: rgb(173, 165, 248);
-}
+
