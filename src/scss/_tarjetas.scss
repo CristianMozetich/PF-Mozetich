@@ -7,32 +7,31 @@
     border-radius: 10px;
     display: flex;
     flex-flow: column; 
-}
-.tarjeta_titulo{
-    text-align: center;
-    margin: 5px;
-    color: rgb(220, 213, 227);
-}
-.tarjeta_img{
-    width: 100%;
-    border-radius: 5px;
-}
-.tarjeta_desc{
-    color: rgb(220, 213, 227);
-    margin: 5px;
-    padding: 5px;
-}
-.btn{
-    background-color: rgb(220, 213, 227);
-    border: none;
-    padding: 5px;
-    border-radius: 5px;
-    color: rgb(0, 0, 0); 
-    font-size: 20px;  
-    text-align: center;
-    text-decoration: none;
-    &:hover{
-        background-color: rgb(173, 165, 248);
+    .tarjeta_titulo{
+        text-align: center;
+        margin: 5px;
+        color: rgb(220, 213, 227);
+    }
+    .tarjeta_img{
+        width: 100%;
+        border-radius: 5px;
+    }
+    .tarjeta_desc{
+        color: rgb(220, 213, 227);
+        margin: 5px;
+        padding: 5px;
+    }
+    .btn{
+        background-color: white;
+        border: none;
+        padding: 5px;
+        border-radius: 20px;
+        color: rgb(0, 0, 0); 
+        font-size: 20px;  
+        text-align: center;
+        text-decoration: none;
+        &:hover{
+            color: red;
+        }
     }
 }
-

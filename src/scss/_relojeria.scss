@@ -12,85 +12,85 @@
     z-index: 0;
     grid-area: main;
     overflow: hidden;
-}
-.relojeria_caja1{
-    width: 100%;
-}
-.relojeria_slider{
-    width: 100%;
-}
-.relojeria_caja2{
-    background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    margin: 20px auto;
-}
-.relojeria_bloque1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.relojeria_caja3{
-    text-align: center;
-    width: 200px;
-    background-color: rgb(234, 217, 231);
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-}
-.relojeria_caja4{
-    width: 500px;
-    background-color: rgb(234, 217, 231);
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-}
-.relojeria_caja5{
-    width: auto;
-}
-.relojeria_img{
-    width: 500px;
-    border-radius: 20px;
-}
-.relojeria_bloque2{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.relojeria_caja6{
-    width: auto;
-    margin: 10px;
-}
-.relojeria_caja7{
-    background-color: rgb(234, 217, 231);
-    width: 500px;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-}
-.relojeria_caja8{
-    padding: 10px;
-    text-align: center;
-    margin: auto;
-    width: 100%;
-    background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+    .relojeria_caja1{
+        width: 100%;
+        .relojeria_slider{
+            width: 100%;
+        }
+    }
+    .relojeria_caja2{
+        background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        margin: 20px auto;
+    }
+    .relojeria_bloque1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .relojeria_caja3{
+            text-align: center;
+            width: 200px;
+            background-color: rgb(234, 217, 231);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .relojeria_caja4{
+            width: 500px;
+            background-color: rgb(234, 217, 231);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .relojeria_caja5{
+            width: auto;
+        }
+    }
+    .relojeria_img{
+        width: 500px;
+        border-radius: 20px;
+    }
+    .relojeria_bloque2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .relojeria_caja6{
+            width: auto;
+            margin: 10px;
+        }
+        .relojeria_caja7{
+            background-color: rgb(234, 217, 231);
+            width: 500px;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+        }
+    }
 }
 .aside_relojeria{
     grid-area: aside;
+    .relojeria_caja8{
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+    }
+    .relojeria_bloque3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
 }
-.relojeria_bloque3{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
 @media(max-width:1180px){
     .relojeria{
         grid-template-columns: repeat(3,1fr);
