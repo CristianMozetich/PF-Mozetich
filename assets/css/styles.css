@@ -132,6 +132,17 @@
   }
 }
 /*tarjetas*/
+.producto .btn, .tarjetas .btn {
+  background-color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
 .tarjetas {
   margin: 20px;
   padding: 10px;
@@ -155,16 +166,6 @@
   color: rgb(220, 213, 227);
   margin: 5px;
   padding: 5px;
-}
-.tarjetas .btn {
-  background-color: white;
-  border: none;
-  padding: 5px;
-  border-radius: 20px;
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-  text-align: center;
-  text-decoration: none;
 }
 .tarjetas .btn:hover {
   color: red;
@@ -604,18 +605,7 @@
   border-radius: 10px;
   color: white;
 }
-.producto .boton_tienda {
-  background-color: rgb(255, 255, 255);
-  width: 130px;
-  align-self: center;
-  border-radius: 10px;
-  font-size: 20px;
-  border: none;
-  text-decoration: none;
-  text-align: center;
-  color: black;
-}
-.producto .boton_tienda:hover {
+.producto .btn:hover {
   color: red;
 }
 

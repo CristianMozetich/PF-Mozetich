@@ -1,3 +1,5 @@
+$colorcajas:  rgb(234, 217, 231);
+
 .relojeria{
     background-color: rgb(241, 230, 240);
     display: grid;
@@ -32,7 +34,7 @@
         .relojeria_caja3{
             text-align: center;
             width: 200px;
-            background-color: rgb(234, 217, 231);
+            background-color: $colorcajas;
             padding: 10px;
             margin: 10px;
             border-radius: 10px;
@@ -41,7 +43,7 @@
         }
         .relojeria_caja4{
             width: 500px;
-            background-color: rgb(234, 217, 231);
+            background-color: $colorcajas;
             padding: 10px;
             margin: 10px;
             border-radius: 10px;
@@ -65,7 +67,7 @@
             margin: 10px;
         }
         .relojeria_caja7{
-            background-color: rgb(234, 217, 231);
+            background-color: $colorcajas;
             width: 500px;
             border-radius: 10px;
             padding: 10px;
