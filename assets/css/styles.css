@@ -132,7 +132,7 @@
   }
 }
 /*tarjetas*/
-.producto .btn, .tarjetas .btn {
+.producto .btn:hover, .producto .btn, .tarjetas .btn {
   background-color: white;
   border: none;
   padding: 5px;
