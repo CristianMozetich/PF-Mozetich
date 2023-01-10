@@ -129,18 +129,18 @@
     flex-direction: row-reverse;
     justify-content: start;
   }
-  .navegador > .fa-bars {
+  .header .navegador > .fa-bars {
     display: block;
     color: rgb(215, 222, 227);
     font-size: 30px;
     padding: 20px;
     margin: 10px;
   }
-  .navegador .fa-bars:hover + ul {
+  .header .navegador .fa-bars:hover + ul {
     left: 0%;
-    transition: 0.5s;
+    transition: 1s;
   }
-  .navegador > ul {
+  .header .navegador > ul {
     position: fixed;
     flex-direction: column;
     background-color: black;
@@ -151,7 +151,7 @@
     left: -300px;
     z-index: 1;
   }
-  .navegador ul:hover {
+  .header .navegador ul:hover {
     left: 0;
   }
 }
@@ -407,7 +407,7 @@
 @media (max-width: 1270px) {
   .joyeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1400px 1900px 120px;
+    grid-template-rows: 100px 1400px 1500px 120px;
     grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
   }
 }
@@ -446,7 +446,7 @@
 @media (max-width: 350px) {
   .joyeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1100px 2000px 120px;
+    grid-template-rows: 100px 1100px 3600px 120px;
     grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
   }
   .joyeria_img {
@@ -551,7 +551,7 @@
 @media (max-width: 1180px) {
   .relojeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1600px 1900px 120px;
+    grid-template-rows: 100px 1600px 1500px 120px;
     grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
   }
 }
