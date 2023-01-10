@@ -1,5 +1,5 @@
 .relojeria{
-    background-color: rgb(241, 230, 240);
+    background-color: $colorfondo;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 100px 1600px 1100px 120px;
@@ -9,6 +9,8 @@
                          "pie pie pie";
 }
 .main_relojeria{
+    font-weight: bold;
+    font-size: large;
     z-index: 0;
     grid-area: main;
     overflow: hidden;
@@ -19,7 +21,7 @@
         }
     }
     .relojeria_caja2{
-        background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+        background-image: $colorgradiente;
         width: 100%;
         text-align: center;
         padding: 10px;
@@ -47,6 +49,11 @@
             border-radius: 10px;
             display: flex;
             align-items: center;
+            text-align: center;
+            .relojeria_desc{
+                padding: 20px;
+                margin: 10px;
+            }
         }
     }
     .relojeria_bloque2{
@@ -65,6 +72,11 @@
             margin: 10px;
             display: flex;
             align-items: center;
+            text-align: center;
+            .relojeria_desc2{
+                margin: 10px;
+                padding: 20px;
+            }
         }
     }
 }
@@ -76,13 +88,14 @@
     border-radius: 20px;
 }
 .aside_relojeria{
+    font-weight: bold;
     grid-area: aside;
     .relojeria_caja8{
         padding: 10px;
         text-align: center;
         margin: auto;
         width: 100%;
-        background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+        background-image: $colorgradiente;
     }
     .relojeria_bloque3{
         display: flex;

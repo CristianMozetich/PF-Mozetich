@@ -1,9 +1,11 @@
 .main_tienda{
-    background-color: rgb(241, 230, 240);
+    background-color: $colorfondo;
     margin-top: 100px;
     overflow: hidden;
+    font-weight: bold;
+    font-size: large;
     .tienda_caja2{
-        background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+        background-image: $colorgradiente;
         width: 100%;
         margin: 20px auto;
         text-align: center;
