@@ -377,10 +377,12 @@
 .main_joyeria .joyeria_bloque1 .joyeria_caja4 .joyeria_desc {
   margin: 10px;
 }
-.main_joyeria .joyeria_bloque1 .joyeria_caja5 {
+
+.joyeria_caja5 {
   width: 500px;
 }
-.main_joyeria .joyeria_bloque1 .joyeria_caja5 .joyeria_img {
+
+.joyeria_img {
   width: 100%;
   border-radius: 20px;
 }
@@ -402,17 +404,17 @@
   justify-content: space-evenly;
 }
 
-@media (max-width: 1170px) {
+@media (max-width: 1270px) {
   .joyeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1300px 1900px 120px;
+    grid-template-rows: 100px 1400px 1900px 120px;
     grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
   }
 }
 @media (max-width: 870px) {
   .joyeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1100px 2000px 120px;
+    grid-template-rows: 100px 1300px 2000px 120px;
     grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
   }
   .joyeria_caja5 {
@@ -426,7 +428,7 @@
 @media (max-width: 650px) {
   .joyeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1000px 3900px 150px;
+    grid-template-rows: 100px 1100px 3900px 150px;
     grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
   }
   .joyeria_caja5 {
@@ -442,6 +444,11 @@
   }
 }
 @media (max-width: 350px) {
+  .joyeria {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 1100px 2000px 120px;
+    grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
+  }
   .joyeria_img {
     width: 250px;
   }
@@ -497,13 +504,6 @@
   display: flex;
   align-items: center;
 }
-.main_relojeria .relojeria_bloque1 .relojeria_caja5 {
-  width: auto;
-}
-.main_relojeria .relojeria_img {
-  width: 500px;
-  border-radius: 20px;
-}
 .main_relojeria .relojeria_bloque2 {
   display: flex;
   flex-wrap: wrap;
@@ -521,6 +521,15 @@
   margin: 10px;
   display: flex;
   align-items: center;
+}
+
+.relojeria_caja5 {
+  width: auto;
+}
+
+.relojeria_img {
+  width: 500px;
+  border-radius: 20px;
 }
 
 .aside_relojeria {
@@ -559,7 +568,7 @@
 @media (max-width: 650px) {
   .relojeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1300px 3900px 150px;
+    grid-template-rows: 100px 1200px 3900px 150px;
     grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
   }
   .relojeria_img {
@@ -597,7 +606,7 @@
   background-color: rgb(234, 217, 231);
   border-radius: 10px;
 }
-.main_tienda .tienda_caja3 .tienda_img {
+.main_tienda .tienda_img {
   border-radius: 10px;
 }
 

@@ -48,13 +48,6 @@
             display: flex;
             align-items: center;
         }
-        .relojeria_caja5{
-            width: auto;
-        }
-    }
-    .relojeria_img{
-        width: 500px;
-        border-radius: 20px;
     }
     .relojeria_bloque2{
         display: flex;
@@ -74,6 +67,13 @@
             align-items: center;
         }
     }
+}
+.relojeria_caja5{
+    width: auto;
+}
+.relojeria_img{
+    width: 500px;
+    border-radius: 20px;
 }
 .aside_relojeria{
     grid-area: aside;
@@ -117,7 +117,7 @@
 @media(max-width:650px){
     .relojeria{
         grid-template-columns: repeat(3,1fr);
-        grid-template-rows: 100px 1300px 3900px 150px;
+        grid-template-rows: 100px 1200px 3900px 150px;
         grid-template-areas: "nav nav nav"
                              "main main main"
                              "aside aside aside"

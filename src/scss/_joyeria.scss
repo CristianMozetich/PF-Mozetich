@@ -48,14 +48,14 @@
                 margin: 10px;
             }
         }
-        .joyeria_caja5{
-            width: 500px;
-            .joyeria_img{
-                width: 100%;
-                border-radius: 20px;
-            }
-        }
     }
+}
+.joyeria_caja5{
+    width: 500px;
+}
+.joyeria_img{
+    width: 100%;
+    border-radius: 20px;
 }
 .aside_joyeria{
     grid-area: aside;
@@ -73,10 +73,10 @@
         justify-content: space-evenly;
     }
 }
-@media(max-width:1170px){
+@media(max-width:1270px){
     .joyeria{
         grid-template-columns: repeat(3,1fr);
-        grid-template-rows: 100px 1300px 1900px 120px;
+        grid-template-rows: 100px 1400px 1900px 120px;
         grid-template-areas: "nav nav nav"
                              "main main main"
                              "aside aside aside"
@@ -87,7 +87,7 @@
 @media(max-width:870px){
     .joyeria{
         grid-template-columns: repeat(3,1fr);
-        grid-template-rows: 100px 1100px 2000px 120px;
+        grid-template-rows: 100px 1300px 2000px 120px;
         grid-template-areas: "nav nav nav"
                              "main main main"
                              "aside aside aside"
@@ -104,7 +104,7 @@
 @media(max-width:650px){
     .joyeria{
         grid-template-columns: repeat(3,1fr);
-        grid-template-rows: 100px 1000px 3900px 150px;
+        grid-template-rows: 100px 1100px 3900px 150px;
         grid-template-areas: "nav nav nav"
                              "main main main"
                              "aside aside aside"
@@ -124,6 +124,14 @@
     }
 }
 @media(max-width:350px){
+    .joyeria{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 100px 1100px 2000px 120px;
+        grid-template-areas: "nav nav nav"
+                             "main main main"
+                             "aside aside aside"
+                             "pie pie pie";
+    }
     .joyeria_img{
         width: 250px;
     }
