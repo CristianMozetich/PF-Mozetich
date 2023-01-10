@@ -414,7 +414,7 @@
 @media (max-width: 1270px) {
   .joyeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1400px 1500px 120px;
+    grid-template-rows: 100px 1600px 1500px 120px;
     grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
   }
 }
@@ -435,7 +435,7 @@
 @media (max-width: 650px) {
   .joyeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1100px 3900px 150px;
+    grid-template-rows: 100px 1300px 3900px 150px;
     grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
   }
   .joyeria_caja5 {
@@ -453,7 +453,7 @@
 @media (max-width: 350px) {
   .joyeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1100px 3600px 120px;
+    grid-template-rows: 100px 1300px 3600px 120px;
     grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
   }
   .joyeria_img {
@@ -571,14 +571,14 @@
 @media (max-width: 1180px) {
   .relojeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1600px 1500px 120px;
+    grid-template-rows: 100px 1800px 1500px 120px;
     grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
   }
 }
 @media (max-width: 870px) {
   .relojeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1500px 1900px 120px;
+    grid-template-rows: 100px 1600px 1900px 120px;
     grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
   }
   .relojeria_img {
@@ -588,7 +588,7 @@
 @media (max-width: 650px) {
   .relojeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1200px 3900px 150px;
+    grid-template-rows: 100px 1500px 3900px 150px;
     grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
   }
   .relojeria_img {
