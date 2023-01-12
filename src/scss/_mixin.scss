@@ -10,3 +10,10 @@
     right: 10px;
     box-shadow: 0px 0px 19px 7px rgba(0,0,0,0.75);
 }
+@mixin producto($gradiente, $color){
+    width: 250px;
+    background-image: $gradiente;
+    box-shadow: 2px 2px 10px 6px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    color: $color;
+}
