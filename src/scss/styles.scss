@@ -1,41 +1,30 @@
 /*reset*/
 @import "reset";
-
 /*variables*/
 @import "variables";
-
+/*mixin*/
+@import "mixin";
 /*extend*/
 @import "extend";
-
 /*loading*/
 @import "loading";
-
 /*navegador*/
 @import "navegador";
-
 /*tarjetas*/
 @import "tarjetas";
-
 /*formulario*/
 @import "formulario";
-
-/*footer*/
-@import "footer";
-
 /*font*/
 @import "tipografia";
-
 /*----- magenta_estructúra con bootstrap -----*/
 @import "magenta";
-
-/*joyería_estructúra*/
+/*joyería_estructura grid*/
 @import "joyeria";
-
-/*relojería_estructúra*/
+/*relojería_estructura grid*/
 @import "relojeria";
-
-/*----- tienda_estructúra con bootstrap -----*/
+/*----- tienda_estructura con bootstrap -----*/
 @import "tienda";
-
-/*contacto_estructúra*/
+/*contacto_estructura*/
 @import "contacto";
+/*footer*/
+@import "footer";

@@ -39,14 +39,5 @@
     }
 }
 .tienda_btn{
-    border-radius: 10px;
-    padding: 20px;
-    font-size: 24px;
-    background-color: rgb(255, 168, 168);
-    color: black;
-    text-decoration: none;
-    position: fixed;
-    top: 150px;
-    right: 10px;
-    box-shadow: 0px 0px 19px 7px rgba(0,0,0,0.75);
+ @include tienda_btn( rgb(255, 168, 168), black )
 }
