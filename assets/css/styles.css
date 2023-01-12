@@ -30,6 +30,7 @@
   margin: 20px;
   padding: 10px;
   background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(70, 51, 57));
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
   width: 250px;
   border-radius: 10px;
   display: flex;
@@ -383,7 +384,7 @@
 @media (max-width: 870px) {
   .joyeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1200px 2000px 120px;
+    grid-template-rows: 100px 1100px 2000px 120px;
     grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
   }
   .joyeria_caja5 {
@@ -397,7 +398,7 @@
 @media (max-width: 650px) {
   .joyeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1000px 3900px 150px;
+    grid-template-rows: 100px 900px 3900px 150px;
     grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
   }
   .joyeria_caja5 {
@@ -415,7 +416,7 @@
 @media (max-width: 350px) {
   .joyeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1000px 3600px 120px;
+    grid-template-rows: 100px 800px 3600px 120px;
     grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
   }
   .joyeria_img {
@@ -599,6 +600,7 @@
   background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(70, 51, 57));
   border-radius: 10px;
   color: white;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
 }
 .producto .btn:hover {
   color: red;
