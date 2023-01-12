@@ -82,7 +82,7 @@
 @media(max-width:1270px){
     .joyeria{
         grid-template-columns: repeat(3,1fr);
-        grid-template-rows: 100px 1600px 1500px 120px;
+        grid-template-rows: 100px 1300px 1500px 120px;
         grid-template-areas: "nav nav nav"
                              "main main main"
                              "aside aside aside"
@@ -93,7 +93,7 @@
 @media(max-width:870px){
     .joyeria{
         grid-template-columns: repeat(3,1fr);
-        grid-template-rows: 100px 1300px 2000px 120px;
+        grid-template-rows: 100px 1200px 2000px 120px;
         grid-template-areas: "nav nav nav"
                              "main main main"
                              "aside aside aside"

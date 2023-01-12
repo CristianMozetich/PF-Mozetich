@@ -12,7 +12,7 @@
     font-size: large;
     grid-area: main;
     .contacto_caja1{
-        background-image: linear-gradient(rgb(222, 200, 218),rgb(255, 255, 255));
+        background-image: $colorgradiente;
         width: 100%;
         padding: 10px;
         margin: 20px auto;
