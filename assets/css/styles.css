@@ -597,7 +597,7 @@
 
 .producto {
   width: 250px;
-  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(70, 51, 57));
+  background-image: linear-gradient(to bottom, rgb(171, 173, 183), rgb(51, 61, 70));
   border-radius: 10px;
   color: white;
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);

@@ -24,7 +24,7 @@
     }
 }
 .producto{
-    @include producto (linear-gradient(to bottom,rgb(0, 0, 0),rgb(70, 51, 57)), white);
+    @include producto (linear-gradient(to bottom,rgb(171, 173, 183),rgb(51, 61, 70)), white);
     .btn{
         @extend %btn;
         &:hover{
