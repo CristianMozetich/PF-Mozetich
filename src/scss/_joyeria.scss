@@ -64,6 +64,7 @@
 .aside_joyeria{
     font-weight: bold;
     grid-area: aside;
+    overflow: hidden;
     .joyeria_caja6{
         background-image: $colorgradiente;
         width: 100%;

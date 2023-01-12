@@ -360,6 +360,7 @@
 .aside_joyeria {
   font-weight: bold;
   grid-area: aside;
+  overflow: hidden;
 }
 .aside_joyeria .joyeria_caja6 {
   background-image: linear-gradient(rgb(222, 200, 218), rgb(255, 255, 255));
@@ -518,6 +519,7 @@
 .aside_relojeria {
   font-weight: bold;
   grid-area: aside;
+  overflow: hidden;
 }
 .aside_relojeria .relojeria_caja8 {
   padding: 10px;
