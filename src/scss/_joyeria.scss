@@ -14,6 +14,7 @@
     z-index: 0;
     grid-area: main;
     overflow: hidden;
+    z-index: 0;
     .joyeria_video{
         width: 100%;
     }
@@ -64,6 +65,7 @@
 .aside_joyeria{
     font-weight: bold;
     grid-area: aside;
+    z-index: 0;
     .joyeria_caja6{
         background-image: $colorgradiente;
         width: 100%;

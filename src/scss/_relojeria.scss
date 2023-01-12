@@ -14,6 +14,7 @@
     z-index: 0;
     grid-area: main;
     overflow: hidden;
+    z-index: 0;
     .relojeria_caja1{
         width: 100%;
         .relojeria_slider{
@@ -90,6 +91,7 @@
 .aside_relojeria{
     font-weight: bold;
     grid-area: aside;
+    z-index: 0;
     .relojeria_caja8{
         padding: 10px;
         text-align: center;
