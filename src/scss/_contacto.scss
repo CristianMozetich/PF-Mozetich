@@ -9,7 +9,6 @@
                          "pie pie pie";
 }
 .main_contacto{
-    font-weight: bold;
     font-size: large;
     grid-area: main;
     .contacto_caja1{
@@ -18,6 +17,9 @@
         padding: 10px;
         margin: 20px auto;
         text-align: center;
+        .contacto_titulo{
+            font-size: 24px;
+        }
     }
 }
 .desc_mapa{
@@ -27,6 +29,9 @@
     justify-content: center;
     margin: 20px auto;
     padding: 10px;
+    .contacto_subtitulo{
+        font-size: 24px;
+    }
 }
 .mapa{
     width: 650px;

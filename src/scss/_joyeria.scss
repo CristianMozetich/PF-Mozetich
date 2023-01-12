@@ -9,7 +9,6 @@
                          "pie pie pie";
 }
 .main_joyeria{
-    font-weight: bold;
     font-size: large;
     grid-area: main;
     overflow: hidden;
@@ -23,6 +22,9 @@
         justify-content: center;
         margin: 20px auto;
         padding: 10px;
+        .joyeria_titulo{
+            font-size: 24px;
+        }
     }
     .joyeria_bloque1{
         display: flex;
@@ -61,7 +63,6 @@
     border-radius: 20px;
 }
 .aside_joyeria{
-    font-weight: bold;
     grid-area: aside;
     overflow: hidden;
     .joyeria_caja6{

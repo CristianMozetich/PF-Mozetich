@@ -24,7 +24,6 @@
   font-size: 20px;
   text-align: center;
   text-decoration: none;
-  font-weight: bold;
 }
 
 .tarjetas {
@@ -256,7 +255,6 @@
   overflow: hidden;
   background-color: rgb(241, 230, 240);
   margin-top: 100px;
-  font-weight: bold;
   font-size: large;
 }
 .main_magenta .magenta_caja2 {
@@ -268,7 +266,7 @@
   text-align: center;
   padding: 10px;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 24px;
 }
 .main_magenta .magenta_caja3 {
   background-color: rgb(234, 217, 231);
@@ -302,7 +300,6 @@
 }
 
 .main_joyeria {
-  font-weight: bold;
   font-size: large;
   grid-area: main;
   overflow: hidden;
@@ -317,6 +314,9 @@
   justify-content: center;
   margin: 20px auto;
   padding: 10px;
+}
+.main_joyeria .joyeria_caja2 .joyeria_titulo {
+  font-size: 24px;
 }
 .main_joyeria .joyeria_bloque1 {
   display: flex;
@@ -357,7 +357,6 @@
 }
 
 .aside_joyeria {
-  font-weight: bold;
   grid-area: aside;
   overflow: hidden;
 }
@@ -434,7 +433,6 @@
 }
 
 .main_relojeria {
-  font-weight: bold;
   font-size: large;
   grid-area: main;
   overflow: hidden;
@@ -451,6 +449,9 @@
   text-align: center;
   padding: 10px;
   margin: 20px auto;
+}
+.main_relojeria .relojeria_caja2 .relojeria_titulo {
+  font-size: 24px;
 }
 .main_relojeria .relojeria_bloque1 {
   display: flex;
@@ -515,7 +516,6 @@
 }
 
 .aside_relojeria {
-  font-weight: bold;
   grid-area: aside;
   overflow: hidden;
 }
@@ -573,7 +573,6 @@
   background-color: rgb(241, 230, 240);
   margin-top: 100px;
   overflow: hidden;
-  font-weight: bold;
   font-size: large;
 }
 .main_tienda .tienda_caja2 {
@@ -586,7 +585,7 @@
   text-align: center;
   padding: 10px;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 24px;
 }
 .main_tienda .tienda_caja3 {
   background-color: rgb(234, 217, 231);
@@ -630,7 +629,6 @@
 }
 
 .main_contacto {
-  font-weight: bold;
   font-size: large;
   grid-area: main;
 }
@@ -641,6 +639,9 @@
   margin: 20px auto;
   text-align: center;
 }
+.main_contacto .contacto_caja1 .contacto_titulo {
+  font-size: 24px;
+}
 
 .desc_mapa {
   background-image: linear-gradient(rgb(222, 200, 218), rgb(255, 255, 255));
@@ -649,6 +650,9 @@
   justify-content: center;
   margin: 20px auto;
   padding: 10px;
+}
+.desc_mapa .contacto_subtitulo {
+  font-size: 24px;
 }
 
 .mapa {
