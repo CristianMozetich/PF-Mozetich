@@ -29,7 +29,7 @@
 .tarjetas {
   margin: 20px;
   padding: 10px;
-  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(70, 51, 57));
+  background-image: linear-gradient(to bottom, #f4acb7, #9d8189);
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
   width: 250px;
   border-radius: 10px;
@@ -139,7 +139,7 @@
   }
   .header .navegador .fa-bars:hover + ul {
     left: 0%;
-    transition: 1s;
+    transition: 0.5s;
   }
   .header .navegador > ul {
     position: fixed;
@@ -160,19 +160,19 @@
 .tarjetas .tarjeta_titulo {
   text-align: center;
   margin: 5px;
-  color: rgb(220, 213, 227);
+  color: black;
 }
 .tarjetas .tarjeta_img {
   width: 100%;
   border-radius: 5px;
 }
 .tarjetas .tarjeta_desc {
-  color: rgb(220, 213, 227);
+  color: black;
   margin: 5px;
   padding: 5px;
 }
 .tarjetas .btn:hover {
-  color: red;
+  color: #1d3557;
 }
 
 /*formulario*/
@@ -597,26 +597,29 @@
 
 .producto {
   width: 250px;
-  background-image: linear-gradient(to bottom, rgb(171, 173, 183), rgb(51, 61, 70));
+  background-image: linear-gradient(to bottom, #f4acb7, #9d8189);
   border-radius: 10px;
-  color: white;
+  color: black;
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
 }
 .producto .btn:hover {
-  color: red;
+  color: #1d3557;
 }
 
 .tienda_btn {
   border-radius: 10px;
   padding: 20px;
   font-size: 24px;
-  background-color: rgb(255, 168, 168);
+  background-color: #d8e2dc;
   color: black;
   text-decoration: none;
   position: fixed;
   top: 150px;
   right: 10px;
-  box-shadow: 0px 0px 19px 7px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+}
+.tienda_btn:hover {
+  color: #1d3557;
 }
 
 /*contacto_estructura*/
@@ -732,14 +735,14 @@
   color: white;
 }
 .footer_iconos a:hover {
-  color: blue;
+  color: #264653;
 }
 
 .githublink {
-  color: red;
+  color: #264653;
   font-size: 16px;
   text-decoration: none;
 }
 .githublink:hover {
-  color: blue;
+  color: #e76f51;
 }

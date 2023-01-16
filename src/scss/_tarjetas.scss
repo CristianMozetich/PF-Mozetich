@@ -3,21 +3,21 @@
     .tarjeta_titulo{
         text-align: center;
         margin: 5px;
-        color: rgb(220, 213, 227);
+        color: black;
     }
     .tarjeta_img{
         width: 100%;
         border-radius: 5px;
     }
     .tarjeta_desc{
-        color: rgb(220, 213, 227);
+        color: black;
         margin: 5px;
         padding: 5px;
     }
     .btn{
         @extend %btn;
         &:hover{
-            color: red;
+            color: #1d3557;
         }
     }
 }
