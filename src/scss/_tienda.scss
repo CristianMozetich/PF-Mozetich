@@ -18,9 +18,17 @@
     .tienda_caja3{
         background-color: $colorcajas;
         border-radius: 10px;
+        &:hover{
+            transform: scale(1.05);
+            transition: 1.5s;
+        }
     }
     .tienda_img{
         border-radius: 10px;
+        &:hover{
+            transform: scale(1.05);
+            transition: 1.5s;
+        }
     }
 }
 .producto{

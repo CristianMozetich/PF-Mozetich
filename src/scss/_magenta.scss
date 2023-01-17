@@ -17,23 +17,47 @@
     .magenta_caja3{
         background-color: $colorcajas;
         border-radius: 10px;
+        &:hover{
+            transform: scale(1.05);
+            transition: 1.5s;
+        }
     }
     .magenta_img1{
         border-radius: 20px;
+        &:hover{
+            transform: scale(1.05);
+            transition: 1.5s;
+        }
     }
     .magenta_img2{
         border-radius: 20px;
+        &:hover{
+            transform: scale(1.05);
+            transition: 1.5s;
+        }
     }
     .magenta_caja6{
         background-color: $colorcajas;
         border-radius: 10px;
+        &:hover{
+            transform: scale(1.05);
+            transition: 1.5s;
+        }
     }
     .magenta_caja7{
         background-color: $colorcajas;
         border-radius: 10px;
+        &:hover{
+            transform: scale(1.05);
+            transition: 1.5s;
+        }
     }
     .magenta_img3{
         border-radius: 20px;
+        &:hover{
+            transform: scale(1.05);
+            transition: 1.5s;
+        }
     }    
 }
 

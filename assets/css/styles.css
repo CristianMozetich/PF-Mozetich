@@ -272,22 +272,46 @@
   background-color: white;
   border-radius: 10px;
 }
+.main_magenta .magenta_caja3:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
+}
 .main_magenta .magenta_img1 {
   border-radius: 20px;
 }
+.main_magenta .magenta_img1:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
+}
 .main_magenta .magenta_img2 {
   border-radius: 20px;
+}
+.main_magenta .magenta_img2:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
 }
 .main_magenta .magenta_caja6 {
   background-color: white;
   border-radius: 10px;
 }
+.main_magenta .magenta_caja6:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
+}
 .main_magenta .magenta_caja7 {
   background-color: white;
   border-radius: 10px;
 }
+.main_magenta .magenta_caja7:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
+}
 .main_magenta .magenta_img3 {
   border-radius: 20px;
+}
+.main_magenta .magenta_img3:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
 }
 
 /*joyería_estructura grid*/
@@ -346,6 +370,10 @@
   margin: 10px;
   padding: 10px;
 }
+.main_joyeria .joyeria_bloque1 .joyeria_caja4 .joyeria_desc:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
+}
 
 .joyeria_caja5 {
   width: 500px;
@@ -354,6 +382,10 @@
 .joyeria_img {
   width: 100%;
   border-radius: 20px;
+}
+.joyeria_img:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
 }
 
 .aside_joyeria {
@@ -482,6 +514,10 @@
   padding: 20px;
   margin: 10px;
 }
+.main_relojeria .relojeria_bloque1 .relojeria_caja4 .relojeria_desc:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
+}
 .main_relojeria .relojeria_bloque2 {
   display: flex;
   flex-wrap: wrap;
@@ -505,6 +541,10 @@
   margin: 10px;
   padding: 20px;
 }
+.main_relojeria .relojeria_bloque2 .relojeria_caja7 .relojeria_desc2:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
+}
 
 .relojeria_caja5 {
   width: auto;
@@ -513,6 +553,10 @@
 .relojeria_img {
   width: 500px;
   border-radius: 20px;
+}
+.relojeria_img:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
 }
 
 .aside_relojeria {
@@ -591,8 +635,16 @@
   background-color: white;
   border-radius: 10px;
 }
+.main_tienda .tienda_caja3:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
+}
 .main_tienda .tienda_img {
   border-radius: 10px;
+}
+.main_tienda .tienda_img:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
 }
 
 .producto {
