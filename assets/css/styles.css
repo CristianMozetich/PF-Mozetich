@@ -111,13 +111,19 @@
   transition: 1s;
 }
 .header .navegador > ul > li > a {
-  border-radius: 20px;
-  padding: 10px;
+  margin: 5px;
+  padding: 3px;
   text-decoration: none;
   color: rgb(255, 255, 255);
+  background-image: linear-gradient(90deg, #f28482, #1d3557);
+  background-size: 0% 1px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
 }
 .header .navegador > ul > li > a:hover {
   color: #ffafcc;
+  background-size: 100% 1px;
 }
 
 .navegador > .fa-bars {
@@ -240,7 +246,8 @@
   border: none;
   font-size: 20px;
   margin: 20px;
-  background-color: rgba(38, 174, 237, 0.829);
+  background-color: #a2d2ff;
+  color: black;
   width: 150px;
   justify-self: center;
 }
