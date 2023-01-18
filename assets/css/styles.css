@@ -373,13 +373,13 @@
   align-items: center;
   text-align: center;
 }
+.main_joyeria .joyeria_bloque1 .joyeria_caja4:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
+}
 .main_joyeria .joyeria_bloque1 .joyeria_caja4 .joyeria_desc {
   margin: 10px;
   padding: 10px;
-}
-.main_joyeria .joyeria_bloque1 .joyeria_caja4 .joyeria_desc:hover {
-  transform: scale(1.05);
-  transition: 1.5s;
 }
 
 .joyeria_caja5 {
@@ -517,13 +517,13 @@
   align-items: center;
   text-align: center;
 }
+.main_relojeria .relojeria_bloque1 .relojeria_caja4:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
+}
 .main_relojeria .relojeria_bloque1 .relojeria_caja4 .relojeria_desc {
   padding: 20px;
   margin: 10px;
-}
-.main_relojeria .relojeria_bloque1 .relojeria_caja4 .relojeria_desc:hover {
-  transform: scale(1.05);
-  transition: 1.5s;
 }
 .main_relojeria .relojeria_bloque2 {
   display: flex;
@@ -544,13 +544,13 @@
   align-items: center;
   text-align: center;
 }
+.main_relojeria .relojeria_bloque2 .relojeria_caja7:hover {
+  transform: scale(1.05);
+  transition: 1.5s;
+}
 .main_relojeria .relojeria_bloque2 .relojeria_caja7 .relojeria_desc2 {
   margin: 10px;
   padding: 20px;
-}
-.main_relojeria .relojeria_bloque2 .relojeria_caja7 .relojeria_desc2:hover {
-  transform: scale(1.05);
-  transition: 1.5s;
 }
 
 .relojeria_caja5 {
