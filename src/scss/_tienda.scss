@@ -39,7 +39,7 @@
             color: #1d3557;
             scale: 1.03;
             transition: 0.4s;
-            box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+            box-shadow: 0px 0px 10px 2px #f4acb7;
             @extend %btn;
         }
     }
@@ -48,5 +48,8 @@
      @include tienda_btn( #d8e2dc, black );
      &:hover{
         color: #1d3557;
+        scale: 1.02;
+        transition: 0.4s;
+        box-shadow: 0px 0px 10px 2px #f4acb7;
      }
 }
