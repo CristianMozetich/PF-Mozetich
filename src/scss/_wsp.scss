@@ -1,0 +1,14 @@
+.wsp{
+    position: fixed;
+    right: 40px;
+    bottom: 110px;
+    font-size: 60px;
+    z-index: 10;
+    a {
+        text-decoration: none;
+        color: #25D366;
+        &:hover{
+            color: #075E54;
+        }
+    }
+}
