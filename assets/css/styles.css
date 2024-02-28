@@ -67,20 +67,9 @@
 .loading > i {
   color: white;
   font-size: 60px;
-  -webkit-animation-name: rotar;
-          animation-name: rotar;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-@-webkit-keyframes rotar {
-  0% {
-    transform: rotateZ(0deg);
-  }
-  100% {
-    transform: rotateZ(360deg);
-  }
+  animation-name: rotar;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
 }
 @keyframes rotar {
   0% {
@@ -345,8 +334,8 @@
   background-color: white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 100px 1300px 1100px 120px;
-  grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
+  grid-template-rows: 100px 1300px 120px;
+  grid-template-areas: "nav nav nav" "main main main" "pie pie pie";
 }
 
 .main_joyeria {
@@ -435,15 +424,15 @@
 @media (max-width: 1270px) {
   .joyeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1300px 1500px 120px;
-    grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
+    grid-template-rows: 100px 1300px 120px;
+    grid-template-areas: "nav nav nav" "main main main" "pie pie pie";
   }
 }
 @media (max-width: 870px) {
   .joyeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1100px 2000px 120px;
-    grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
+    grid-template-rows: 100px 1100px 120px;
+    grid-template-areas: "nav nav nav" "main main main" "pie pie pie";
   }
   .joyeria_caja5 {
     width: auto;
@@ -456,8 +445,8 @@
 @media (max-width: 650px) {
   .joyeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 900px 3900px 150px;
-    grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
+    grid-template-rows: 100px 900px 150px;
+    grid-template-areas: "nav nav nav" "main main main" "pie pie pie";
   }
   .joyeria_caja5 {
     width: auto;
@@ -474,8 +463,8 @@
 @media (max-width: 350px) {
   .joyeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 800px 3600px 120px;
-    grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
+    grid-template-rows: 100px 800px 120px;
+    grid-template-areas: "nav nav nav" "main main main" "pie pie pie";
   }
   .joyeria_img {
     width: 250px;
@@ -486,8 +475,8 @@
   background-color: white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 100px 1600px 1100px 120px;
-  grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
+  grid-template-rows: 100px 1600px 120px;
+  grid-template-areas: "nav nav nav" "main main main" "pie pie pie";
 }
 
 .main_relojeria {
@@ -605,15 +594,15 @@
 @media (max-width: 1180px) {
   .relojeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1600px 1500px 120px;
-    grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
+    grid-template-rows: 100px 1600px 120px;
+    grid-template-areas: "nav nav nav" "main main main" "pie pie pie";
   }
 }
 @media (max-width: 870px) {
   .relojeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1500px 1900px 120px;
-    grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
+    grid-template-rows: 100px 1500px 120px;
+    grid-template-areas: "nav nav nav" "main main main" "pie pie pie";
   }
   .relojeria_img {
     width: 440px;
@@ -622,8 +611,8 @@
 @media (max-width: 650px) {
   .relojeria {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 1350px 3900px 150px;
-    grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
+    grid-template-rows: 100px 1350px 150px;
+    grid-template-areas: "nav nav nav" "main main main" "pie pie pie";
   }
   .relojeria_img {
     width: 310px;
@@ -709,8 +698,8 @@
   background-color: white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 100px 1100px 100px 120px;
-  grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
+  grid-template-rows: 100px 1100px 120px;
+  grid-template-areas: "nav nav nav" "main main main" "pie pie pie";
 }
 
 .main_contacto {
@@ -753,8 +742,8 @@
 @media (max-width: 800px) {
   .contacto {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 900px 100px 150px;
-    grid-template-areas: "nav nav nav" "main main main" "aside aside aside" "pie pie pie";
+    grid-template-rows: 100px 900px 150px;
+    grid-template-areas: "nav nav nav" "main main main" "pie pie pie";
   }
   .formulario {
     margin: auto;
