@@ -698,7 +698,7 @@
   background-color: white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 100px 1100px 120px;
+  grid-template-rows: 100px 1200px 120px;
   grid-template-areas: "nav nav nav" "main main main" "pie pie pie";
 }
 
@@ -742,7 +742,7 @@
 @media (max-width: 800px) {
   .contacto {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px 900px 150px;
+    grid-template-rows: 100px 920px 150px;
     grid-template-areas: "nav nav nav" "main main main" "pie pie pie";
   }
   .formulario {
